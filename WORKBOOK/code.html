@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,200..800&amp;family=Space+Grotesk:wght@300..700&amp;family=Epilogue:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "secondary-container": "#a900a9",
+                        "surface-container-low": "#161213",
+                        "on-primary": "#516700",
+                        "tertiary-fixed-dim": "#00efef",
+                        "on-primary-fixed-variant": "#526900",
+                        "on-tertiary-container": "#005d5d",
+                        "secondary": "#ff51fa",
+                        "secondary-dim": "#ff51fa",
+                        "tertiary-container": "#00ffff",
+                        "surface-dim": "#110d0e",
+                        "surface-bright": "#302b2c",
+                        "secondary-fixed-dim": "#ffa6f3",
+                        "primary-container": "#cafd00",
+                        "error-dim": "#d53d18",
+                        "on-error-container": "#ffd2c8",
+                        "primary-fixed": "#cafd00",
+                        "surface-tint": "#f3ffca",
+                        "surface-container-lowest": "#000000",
+                        "surface-container-high": "#231e20",
+                        "on-secondary-container": "#fff5f9",
+                        "surface-variant": "#2a2426",
+                        "on-secondary-fixed-variant": "#920091",
+                        "tertiary": "#c1fffe",
+                        "inverse-primary": "#516700",
+                        "surface": "#110d0e",
+                        "on-secondary-fixed": "#620061",
+                        "inverse-surface": "#fff8f8",
+                        "on-background": "#fffbff",
+                        "background": "#110d0e",
+                        "on-primary-container": "#4a5e00",
+                        "outline-variant": "#4c4748",
+                        "on-tertiary": "#006767",
+                        "tertiary-fixed": "#00ffff",
+                        "on-surface-variant": "#b1a9aa",
+                        "error": "#ff7351",
+                        "secondary-fixed": "#ffbdf3",
+                        "primary-dim": "#beee00",
+                        "primary-fixed-dim": "#beee00",
+                        "on-secondary": "#400040",
+                        "primary": "#f3ffca",
+                        "surface-container-highest": "#2a2426",
+                        "on-tertiary-fixed-variant": "#006868",
+                        "inverse-on-surface": "#595455",
+                        "on-error": "#450900",
+                        "outline": "#7a7475",
+                        "on-tertiary-fixed": "#004949",
+                        "on-surface": "#fffbff",
+                        "error-container": "#b92902",
+                        "tertiary-dim": "#00e6e6",
+                        "on-primary-fixed": "#3a4a00",
+                        "surface-container": "#1d181a"
+                    },
+                    fontFamily: {
+                        "newsreader": ["Newsreader", "serif"],
+                        "spaceGrotesk": ["Space Grotesk", "sans-serif"],
+                        "epilogue": ["Epilogue", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .clip-path-jagged-torn {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 95% 100%, 85% 92%, 75% 100%, 65% 94%, 55% 100%, 45% 91%, 35% 100%, 25% 93%, 15% 100%, 5% 92%, 0% 100%);
+        }
+        .grain-overlay {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3BaseFilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/baseFilter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.15;
+            pointer-events: none;
+        }
+        .scribble-box {
+            mask-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 10 Q 50 5 90 10 T 90 90 T 10 90 Z' fill='black'/%3E%3C/svg%3E");
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-spaceGrotesk selection:bg-secondary selection:text-white overflow-x-hidden">
+<div class="fixed inset-0 grain-overlay z-[100]"></div>
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-8 bg-[#110d0e] dark:bg-[#110d0e] shadow-[8px_8px_0px_0px_#ff51fa]">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#f3ffca]" style="font-variation-settings: 'FILL' 1;">menu_open</span>
+<h1 class="text-4xl font-black text-[#f3ffca] dark:text-[#f3ffca] drop-shadow-[4px_4px_0px_#ff51fa] font-newsreader uppercase italic tracking-tighter -rotate-2">ANTI-LOGIC MANIFESTO</h1>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-[#ff51fa] underline decoration-4 font-newsreader italic font-bold" href="#">THE VOID</a>
+<a class="text-[#b1a9aa] hover:bg-[#ff51fa] hover:text-black transition-none font-newsreader italic font-bold uppercase" href="#">SCRIBBLES</a>
+<a class="text-[#b1a9aa] hover:bg-[#ff51fa] hover:text-black transition-none font-newsreader italic font-bold uppercase" href="#">DISTORTION</a>
+</nav>
+<span class="material-symbols-outlined text-[#f3ffca]">error</span>
+</header>
+<!-- Navigation Drawer (Always present but positioned uniquely) -->
+<aside class="fixed inset-y-0 left-0 z-[60] p-10 bg-[#110d0e]/90 backdrop-blur-xl h-full w-80 border-r-0 shadow-[20px_0px_0px_#cafd00] transform -translate-x-full lg:translate-x-0 transition-transform">
+<h2 class="font-newsreader text-[#f3ffca] text-3xl font-black mb-12">DADA_DIGITAL</h2>
+<nav class="space-y-4">
+<a class="bg-[#f3ffca] text-[#110d0e] -rotate-2 p-4 block font-newsreader text-2xl font-bold transition-none hover:translate-x-2" href="#">
+<span class="flex items-center gap-4">
+<span class="material-symbols-outlined">grain</span> THE VOID
+                </span>
+</a>
+<a class="text-[#b1a9aa] hover:text-[#ff51fa] p-4 block font-newsreader text-2xl font-bold hover:line-through hover:decoration-[#ff51fa] transition-none hover:translate-x-2" href="#">
+<span class="flex items-center gap-4">
+<span class="material-symbols-outlined">draw</span> SCRIBBLES
+                </span>
+</a>
+<a class="text-[#b1a9aa] hover:text-[#ff51fa] p-4 block font-newsreader text-2xl font-bold hover:line-through hover:decoration-[#ff51fa] transition-none hover:translate-x-2" href="#">
+<span class="flex items-center gap-4">
+<span class="material-symbols-outlined">texture</span> DISTORTION
+                </span>
+</a>
+<a class="text-[#b1a9aa] hover:text-[#ff51fa] p-4 block font-newsreader text-2xl font-bold hover:line-through hover:decoration-[#ff51fa] transition-none hover:translate-x-2" href="#">
+<span class="flex items-center gap-4">
+<span class="material-symbols-outlined">close</span> EXIT
+                </span>
+</a>
+</nav>
+</aside>
+<!-- Main Canvas -->
+<main class="lg:ml-80 pt-32 pb-40 px-6 min-h-screen relative overflow-hidden">
+<!-- Hero Collage -->
+<section class="relative h-[707px] w-full flex flex-col justify-center items-center">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-10 right-10 w-96 h-96 bg-primary-container rotate-12 mix-blend-difference opacity-50"></div>
+<div class="absolute bottom-20 left-1/4 w-72 h-72 bg-secondary rotate-[-15deg] mix-blend-screen opacity-30"></div>
+<img alt="classical art statue with glitch overlay" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-full object-cover grayscale contrast-150 rotate-2 opacity-80 mix-blend-overlay" data-alt="Ancient Greek statue with neon digital artifacts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApQ7FZu3_0Agu06WattCxz_PZakxTWPtuSgjep9DVAazVHOpvTg52vvNM-s45PX4DYi3GK2JgT_ziNv6U-QJrWNmLXYOoDYbbnswcfB0J-7S7iwVOP8ctWRhnmGUEsQuMJEv8RXtkPbVc3vFH2hui0kV5QmZR0A8-o8z_HbFqtzzApWlltAvh28zAYVzUFU-6IHTk1kEh00uLztP7LPjlAWoZV52BF31G8Egxi3QQwQnzJJgc9Gl19S8YE_HlbkuKXmK6QB3OonZI"/>
+</div>
+<div class="relative z-10 text-center">
+<h1 class="font-newsreader text-7xl md:text-9xl font-black italic uppercase text-primary leading-none tracking-tighter transform -skew-x-12">
+                    DADA IS <br/>
+<span class="bg-secondary text-on-secondary px-4 inline-block rotate-3">EVERYTHING</span>
+</h1>
+<p class="font-epilogue text-xl md:text-2xl font-bold tracking-[0.4em] mt-8 bg-surface text-secondary-fixed border-4 border-secondary-container p-2 inline-block -rotate-1">
+                    ABANDON LOGIC / PURSUE NOISE
+                </p>
+</div>
+<!-- Floating Bits -->
+<div class="absolute top-0 right-0 p-4 border-l-8 border-primary-container font-epilogue text-xs uppercase text-on-surface-variant">
+                ERR_CODE: NULL_LOGIC<br/>
+                TIMESTAMP: 00:00:00
+            </div>
+</section>
+<!-- Bento Chaos Grid -->
+<section class="grid grid-cols-1 md:grid-cols-4 gap-4 mt-20 auto-rows-[300px]">
+<!-- Card 1 -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-highest p-8 relative overflow-hidden group">
+<div class="absolute top-0 right-0 bg-secondary-container text-white px-2 py-1 font-epilogue text-[10px] rotate-90 origin-top-right">ARCHIVE_01</div>
+<h3 class="font-newsreader text-5xl font-bold italic mb-6">THE DISTORTION OF TRUTH</h3>
+<p class="text-on-surface-variant max-w-sm mb-8 font-spaceGrotesk text-lg">We refuse the grid. We embrace the spill. The pixel is a cage; the grain is the escape.</p>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary px-6 py-2 font-bold uppercase transition-none hover:bg-secondary active:skew-x-12">VIEW RIOT</button>
+<button class="underline decoration-4 text-outline font-bold">IGNORE ALL</button>
+</div>
+<img alt="abstract neon glitch" class="absolute bottom-0 right-0 w-48 h-48 mix-blend-lighten opacity-40 group-hover:scale-150 transition-none" data-alt="Cyan and magenta digital distortion patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU6ZjZtZbxUecrKahLDRUz1ozUfnACaqjwwNWsObMMsusS6d4U8KU_r04ZQzI_cKyApdx59oTh9spdB71KFYmHvdaMIMHGofgjPY5P0hPHKH9xbk3WtzrILKhtsFW04EgYlWKs4JMbj3yhhzCUYcLbo2W4cvJuir7HgLDcx0B2n8ARR_jlLdIETaEDVbvuGLcAmsLUBXkqBg6YimdTQpTDd4drrityl3H9GQnNjvZ_YurmBnhh8XoOs-DpzJfSyy7ziN1Z4l88uMs"/>
+</div>
+<!-- Card 2 -->
+<div class="bg-primary-container p-6 flex flex-col justify-end relative overflow-hidden">
+<span class="material-symbols-outlined text-black text-6xl absolute top-4 left-4">bolt</span>
+<p class="font-epilogue font-black text-black leading-tight uppercase">Instantaneous <br/>Visual <br/>Conflict</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-secondary p-6 relative group overflow-hidden">
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-none flex items-center justify-center">
+<span class="text-white font-newsreader text-4xl italic -rotate-12">SHUT UP</span>
+</div>
+<img alt="texture pattern" class="w-full h-full object-cover mix-blend-multiply grayscale opacity-60" data-alt="Heavy black and white grunge texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNFrOe7ja87YVwshX4i2ltu1z5vQWlFbGMbFxxECpLCub0btMVc_ZN1TnGf9c88uLcthvVWcsxZOL2pMcRiI1SxvVpv_4qaMLLTVzMYqw_LWQLSG0_rUv4yD0AZZcEvVkBHtgVBj3uRSGXxQcp_OVLlfFczRn9mn5c0N7JH1wTZh8z7GhABitixelLbPuwf-CWQAHp_aSq5utUbtQrEzdQbWr3ONfNF3c0Iwr_tqzxDgZ1SVz6oY6PzYPDdxtpvJI9fIcfZirN2u0"/>
+</div>
+<!-- Card 4 -->
+<div class="md:col-span-2 bg-surface-container-low border-b-8 border-secondary p-6 flex items-center justify-between">
+<div class="rotate-[-2deg]">
+<h4 class="font-newsreader text-3xl font-black text-primary">REJECT FORM</h4>
+<p class="font-epilogue text-xs tracking-widest text-on-surface-variant">SERIAL NUMBER: 882-DADA</p>
+</div>
+<div class="w-12 h-12 rounded-full border-4 border-dashed border-secondary-container animate-spin-slow"></div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-highest p-4 relative">
+<div class="absolute -top-4 -left-4 w-12 h-12 bg-primary rotate-45"></div>
+<div class="flex flex-col h-full justify-between">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<p class="text-3xl font-newsreader italic text-on-surface">"THERE IS NO SYSTEM"</p>
+</div>
+</div>
+</section>
+<!-- Asymmetric Text Block -->
+<section class="mt-40 max-w-4xl mx-auto space-y-12">
+<div class="ml-auto w-2/3 p-10 bg-surface-bright shadow-[15px_15px_0px_#f3ffca] -rotate-1">
+<h2 class="font-newsreader text-5xl font-black uppercase mb-4 text-[#cafd00]">The Manifesto of Chaos</h2>
+<p class="font-spaceGrotesk text-xl leading-relaxed text-inverse-surface">
+                    Logic is a lie told by the comfortable. We seek the friction between the screen and the soul. 
+                    <span class="bg-[#ff51fa] text-black px-1">EVERY COLOR IS A WEAPON</span>. Every pixel is a choice to either obey or to destroy. We choose the latter.
+                </p>
+</div>
+<div class="mr-auto w-1/2 p-8 border-4 border-dashed border-outline-variant rotate-2">
+<p class="font-epilogue text-sm uppercase leading-loose text-on-surface-variant">
+                    Fragments // 
+                    Lost Data // 
+                    Digital Rot // 
+                    Glitch Art // 
+                    Pure Noise // 
+                    Subversion
+                </p>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile & Focused navigation) -->
+<nav class="fixed bottom-10 left-1/2 -translate-x-1/2 w-auto bg-transparent flex gap-12 items-center justify-center z-50">
+<button class="text-[#f3ffca] opacity-40 hover:invert transition-none">
+<span class="material-symbols-outlined text-4xl">bolt</span>
+</button>
+<button class="text-[#ff51fa] scale-150 animate-pulse hover:rotate-180 transition-none">
+<span class="material-symbols-outlined text-4xl">change_history</span>
+</button>
+<button class="text-[#f3ffca] opacity-40 hover:invert transition-none">
+<span class="material-symbols-outlined text-4xl">emergency</span>
+</button>
+<button class="text-[#f3ffca] opacity-40 hover:invert transition-none">
+<span class="material-symbols-outlined text-4xl">all_inclusive</span>
+</button>
+</nav>
+<!-- Footer -->
+<footer class="relative mt-20 flex flex-col items-center justify-center overflow-hidden w-full py-2 rotate-1 translate-y-4 bg-[#cafd00] text-black border-t-8 border-black border-dashed">
+<div class="flex flex-col md:flex-row items-center gap-12 py-10">
+<span class="font-epilogue font-bold tracking-[0.2em] text-black">© NO_RIGHTS_RESERVED_ERR_404</span>
+<div class="flex gap-8">
+<a class="text-black hover:bg-black hover:text-[#f3ffca] transition-none font-epilogue font-bold underline" href="#">STAY_AWAY</a>
+<a class="text-black hover:bg-black hover:text-[#f3ffca] transition-none font-epilogue font-bold underline" href="#">DESTROY_THIS</a>
+</div>
+</div>
+<!-- Decorative Marquee -->
+<div class="w-full bg-black text-primary py-2 overflow-hidden whitespace-nowrap">
+<div class="inline-block animate-marquee uppercase font-epilogue font-black text-xs">
+                ABANDON ALL HOPE YE WHO ENTER THE GRID — DADA IS THE ONLY EXIT — SYSTEM FAILURE IN PROGRESS — REJECT STABILITY — 
+                ABANDON ALL HOPE YE WHO ENTER THE GRID — DADA IS THE ONLY EXIT — SYSTEM FAILURE IN PROGRESS — REJECT STABILITY —
+            </div>
+</div>
+</footer>
+<style>
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            animation: marquee 20s linear infinite;
+        }
+        @keyframes spin-slow {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .animate-spin-slow {
+            animation: spin-slow 10s linear infinite;
+        }
+        .flicker-animation {
+            animation: flicker 0.1s infinite step-end;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+    </style>
+</body></html>
