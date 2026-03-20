@@ -1,0 +1,2227 @@
+<!-- Design System -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BEST DESIGNERS | KINETIC RIGOUR</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#e4e2e1",
+              "error-container": "#ffdad6",
+              "on-primary-fixed": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "outline": "#777777",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-tertiary": "#e4e2e1",
+              "tertiary-container": "#757474",
+              "on-tertiary-container": "#ffffff",
+              "surface-container": "#eeeeee",
+              "on-primary": "#e2e2e2",
+              "on-secondary-fixed": "#1c1b1b",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#410002",
+              "on-surface-variant": "#474747",
+              "primary-container": "#3b3b3b",
+              "error": "#ba1a1a",
+              "surface-bright": "#f9f9f9",
+              "surface-container-low": "#f3f3f4",
+              "surface-container-highest": "#e2e2e2",
+              "on-error": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "inverse-surface": "#2f3131",
+              "secondary": "#5f5e5e",
+              "on-background": "#1a1c1c",
+              "surface": "#f9f9f9",
+              "inverse-on-surface": "#f0f1f1",
+              "primary-fixed": "#5e5e5e",
+              "on-primary-container": "#ffffff",
+              "tertiary-fixed": "#5f5e5e",
+              "tertiary-fixed-dim": "#474747",
+              "primary": "#000000",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#c8c6c5",
+              "on-secondary-container": "#1c1b1b",
+              "primary-fixed-dim": "#474747",
+              "on-tertiary-fixed": "#ffffff",
+              "inverse-primary": "#c6c6c6",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "surface-variant": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "surface-dim": "#dadada",
+              "secondary-fixed-dim": "#adabaa",
+              "tertiary": "#3b3b3b",
+              "background": "#f9f9f9",
+              "on-secondary": "#ffffff",
+              "outline-variant": "#c6c6c6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .kerning-tight { letter-spacing: -0.02em; }
+        .kerning-wide { letter-spacing: 0.05em; }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full flex justify-between items-center px-4 md:px-[5.5rem] py-8 bg-[#f9f9f9] dark:bg-[#000000] z-50 transition-colors duration-250">
+<div class="text-[1.75rem] font-extrabold tracking-[-0.02em] text-[#000000] dark:text-[#ffffff] uppercase">
+            BEST DESIGNERS
+        </div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250" href="#">PORTFOLIO</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250" href="#">GALLERY</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250" href="#">RESEARCH</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250" href="#">CONTACT</a>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section: KINETIC RIGOUR -->
+<section class="px-4 md:px-[5.5rem] py-24 md:py-48 flex flex-col justify-end min-h-[819px] bg-background">
+<div class="grid grid-cols-12 gap-4">
+<div class="col-span-12 md:col-span-10">
+<h1 class="text-[4rem] md:text-[8rem] lg:text-[10rem] font-extrabold leading-[0.85] kerning-tight uppercase text-primary">
+                        KINETIC<br/>RIGOUR
+                    </h1>
+</div>
+</div>
+<div class="grid grid-cols-12 gap-4 mt-12 md:mt-24">
+<div class="col-start-1 md:col-start-8 col-span-12 md:col-span-5">
+<p class="text-xl md:text-2xl font-light leading-relaxed text-on-surface">
+                        A Melbourne-based practice operating at the intersection of architectural signage and high-speed motion. We build typographic systems with structural integrity.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Service Pillars: Signage Grid -->
+<section class="px-4 md:px-[5.5rem] py-32 bg-surface-container-low">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-0 border-t border-outline-variant/30">
+<div class="py-12 md:pr-12 border-b md:border-b-0 md:border-r border-outline-variant/30 flex flex-col justify-between h-80">
+<span class="text-[0.6875rem] font-medium uppercase kerning-wide opacity-50">01 / CAPABILITY</span>
+<h3 class="text-2xl font-extrabold uppercase kerning-tight">Typographic Systems</h3>
+<p class="text-sm font-light leading-relaxed">Systemic approaches to complex information architecture across digital and physical planes.</p>
+</div>
+<div class="py-12 md:px-12 border-b md:border-b-0 md:border-r border-outline-variant/30 flex flex-col justify-between h-80">
+<span class="text-[0.6875rem] font-medium uppercase kerning-wide opacity-50">02 / CAPABILITY</span>
+<h3 class="text-2xl font-extrabold uppercase kerning-tight">Typeface Design</h3>
+<p class="text-sm font-light leading-relaxed">Bespoke glyph construction tailored to specific brand environments and technical constraints.</p>
+</div>
+<div class="py-12 md:px-12 border-b md:border-b-0 md:border-r border-outline-variant/30 flex flex-col justify-between h-80">
+<span class="text-[0.6875rem] font-medium uppercase kerning-wide opacity-50">03 / CAPABILITY</span>
+<h3 class="text-2xl font-extrabold uppercase kerning-tight">Signage &amp; Wayfinding</h3>
+<p class="text-sm font-light leading-relaxed">Environmental graphics that guide movement through three-dimensional space with absolute clarity.</p>
+</div>
+<div class="py-12 md:pl-12 flex flex-col justify-between h-80">
+<span class="text-[0.6875rem] font-medium uppercase kerning-wide opacity-50">04 / CAPABILITY</span>
+<h3 class="text-2xl font-extrabold uppercase kerning-tight">Motion Graphics</h3>
+<p class="text-sm font-light leading-relaxed">High-speed linear transitions and kinetic typography that redefine digital momentum.</p>
+</div>
+</div>
+</section>
+<!-- Motion Section: The Grid -->
+<section class="px-4 md:px-[5.5rem] py-32 bg-background">
+<div class="flex justify-between items-end mb-16">
+<h2 class="text-4xl md:text-6xl font-extrabold uppercase kerning-tight">Selected Work</h2>
+<div class="hidden md:block text-[0.6875rem] font-medium uppercase kerning-wide tracking-widest opacity-60">
+                    SCROLL TO EXPLORE ARCHIVE
+                </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Large Feature -->
+<div class="col-span-12 md:col-span-8 group relative bg-surface-container overflow-hidden aspect-video md:aspect-[21/9]">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" data-alt="Abstract black and white kinetic typography loop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_ThUMFnz0QpYDyYw7EU680wzsiupLujCIz-cNWOi0P6db_jXaxrPPjoQHXjMKHb3wqkCsHF_QKSXB2LtsfYxaSldLoe4Q-yNcyAg3XgTch9k6WLje5HInxXctYoP90Sma05pvlOsE5FT00WgAqKyjlRybKwX_9xttIXdQ1u6FSK8Qu97xdvggldA5JZH0avmBd7aIuiIkfvB54FLIAr3L7VGKeyK3_cZIe3wlqE8AwKJm7u7coXaG6ZneIRsE8v6AxHvEsYKF5leB"/>
+<div class="absolute bottom-6 left-6 bg-primary text-white px-4 py-2 text-[0.6875rem] font-medium uppercase kerning-wide">
+                        Project: Kinetica 01 // Motion
+                    </div>
+</div>
+<!-- Secondary Items -->
+<div class="col-span-12 md:col-span-4 group relative bg-surface-container aspect-square">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" data-alt="Close up of architectural signage on concrete wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4SQFB1_rqcz1dFfIw5Y5ZmgwzmbhhpRXo-rsIGYbZXAoWRJMP1VASMKUbfyEE7Q6gkuiayC_pEg8pqmp33K46UOPwf-uhfAz4a2N7mlTObS3y7YoUipseHQTYUD_jWSJYPqPwK-M1SDifzB7BhZkt2gFuPBZ47Lsxo6w97cAGo4bNSK5QBXZ4WT0Nrew8pJbOM7YLYh-SVvCv4pPMmKzFPa9Vfc-r2RdWLndQI6o8VM0LRvJYgRoeRacz6dFnZUcZ6bW6CTUljSS3"/>
+<div class="absolute bottom-6 left-6 bg-primary text-white px-4 py-2 text-[0.6875rem] font-medium uppercase kerning-wide">
+                        Project: Monolith // Signage
+                    </div>
+</div>
+<div class="col-span-12 md:col-span-4 group relative bg-surface-container aspect-square">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" data-alt="Monochrome typographic poster design with high contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACQUmMVnPtlksiSsZ7lbUuJ77ULoD0OaE_osWlQyV7DWAh97cA4VL4qrvY39PvUolpAOLqwCWIffGf6IwolTC2X4lH2u_HI1E42rGj9h0sY1TTOpbsScbLA2xdcXTJozVotpJsFM28ZnPR8CSYWKufe4tJReD44TWryj6aPZrvA0rWd3s0FVr78XklwmahenhhiCdPhYtaDiowvVl0wvstheR920HQjLZnbseYe-SAT0nyaCBxystTqdMOL7WQbNDLZH4U1KaB3i1H"/>
+<div class="absolute bottom-6 left-6 bg-primary text-white px-4 py-2 text-[0.6875rem] font-medium uppercase kerning-wide">
+                        Project: Brutalist // Posters
+                    </div>
+</div>
+<div class="col-span-12 md:col-span-8 group relative bg-surface-container overflow-hidden aspect-video md:aspect-[21/9]">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" data-alt="Experimental 3D motion graphic with liquid typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCShkFxkiTQWcOU-DKDSeES8WcDuJBNvTpmMxacyvhgQIwGAn2uRcyMinJbbe9jziot0xXTMUrhTm4m54G9vEUE_gy--Qe1sPlfFxSqxXPIy13Hwl8cGrNZSxfMsniKoBk6Eveu7vkbShGHET17nVCllT3kVabZIdbrfv2okpQJCe9E7QBZEl-HnG-fJDeJPgAcxUvMdzj1rZHe44NEK15JzelcjqedzSr3AOciiBpxjO1Ubl2wU3H8-f43fboTMeG28Mb9x5cPcUIB"/>
+<div class="absolute bottom-6 left-6 bg-primary text-white px-4 py-2 text-[0.6875rem] font-medium uppercase kerning-wide">
+                        Project: Fluid State // Motion
+                    </div>
+</div>
+</div>
+</section>
+<!-- Statement Section -->
+<section class="px-4 md:px-[5.5rem] py-48 bg-primary text-white">
+<div class="grid grid-cols-12 gap-4">
+<div class="col-span-12 md:col-span-9">
+<h2 class="text-3xl md:text-6xl font-light leading-tight kerning-tight">
+                        We reject the decorative. We embrace the functional. Our work is a study in <span class="font-extrabold italic">structural rigour</span> and the precise application of typographic form within the Australian landscape.
+                    </h2>
+<div class="mt-16 inline-flex items-center gap-4 group cursor-pointer">
+<span class="text-[0.6875rem] font-medium uppercase kerning-wide border-b border-white pb-1 transition-all group-hover:pr-4">Start a Commission</span>
+<span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-start md:items-center px-4 md:px-[5.5rem] py-24 gap-8 bg-[#f3f3f4] dark:bg-[#1a1c1c]">
+<div class="flex flex-col gap-4">
+<div class="font-extrabold text-[#000000] dark:text-[#ffffff] uppercase text-xl">BEST DESIGNERS</div>
+<p class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70">
+                ACKNOWLEDGEMENT OF COUNTRY: EASTERN KULIN NATIONS
+            </p>
+</div>
+<div class="flex flex-wrap gap-12">
+<div class="flex flex-col gap-2">
+<span class="text-[0.6875rem] font-extrabold opacity-30 uppercase">Connect</span>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] transition-all duration-250" href="#">INSTAGRAM</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] transition-all duration-250" href="#">ARE.NA</a>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-[0.6875rem] font-extrabold opacity-30 uppercase">Legal</span>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70">
+                    © BEST DESIGNERS. BUILT WITH RIGOUR.
+                </span>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Home - Kinetic Rigour & Typography -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GALLERY — BEST DESIGNERS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#e4e2e1",
+              "error-container": "#ffdad6",
+              "on-primary-fixed": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "outline": "#777777",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-tertiary": "#e4e2e1",
+              "tertiary-container": "#757474",
+              "on-tertiary-container": "#ffffff",
+              "surface-container": "#eeeeee",
+              "on-primary": "#e2e2e2",
+              "on-secondary-fixed": "#1c1b1b",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#410002",
+              "on-surface-variant": "#474747",
+              "primary-container": "#3b3b3b",
+              "error": "#ba1a1a",
+              "surface-bright": "#f9f9f9",
+              "surface-container-low": "#f3f3f4",
+              "surface-container-highest": "#e2e2e2",
+              "on-error": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "inverse-surface": "#2f3131",
+              "secondary": "#5f5e5e",
+              "on-background": "#1a1c1c",
+              "surface": "#f9f9f9",
+              "inverse-on-surface": "#f0f1f1",
+              "primary-fixed": "#5e5e5e",
+              "on-primary-container": "#ffffff",
+              "tertiary-fixed": "#5f5e5e",
+              "tertiary-fixed-dim": "#474747",
+              "primary": "#000000",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#c8c6c5",
+              "on-secondary-container": "#1c1b1b",
+              "primary-fixed-dim": "#474747",
+              "on-tertiary-fixed": "#ffffff",
+              "inverse-primary": "#c6c6c6",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "surface-variant": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "surface-dim": "#dadada",
+              "secondary-fixed-dim": "#adabaa",
+              "tertiary": "#3b3b3b",
+              "background": "#f9f9f9",
+              "on-secondary": "#ffffff",
+              "outline-variant": "#c6c6c6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #1a1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 0;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-primary selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full flex justify-between items-center px-[5.5rem] py-8 bg-[#f9f9f9] dark:bg-[#000000] z-50 transition-colors duration-250">
+<div class="text-[1.75rem] font-extrabold tracking-[-0.02em] text-[#000000] dark:text-[#ffffff] uppercase">
+            BEST DESIGNERS
+        </div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">PORTFOLIO</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-extrabold text-[#000000] dark:text-[#ffffff] border-b-2 border-[#000000] dark:border-[#ffffff] pb-1 active:scale-95" href="#">GALLERY</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">RESEARCH</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">CONTACT</a>
+</div>
+</nav>
+<main class="pt-48 pb-24">
+<!-- Hero Title -->
+<header class="px-[5.5rem] mb-32 editorial-grid">
+<div class="col-start-1 col-span-12 md:col-span-8">
+<h1 class="text-[3.5rem] font-extrabold tracking-[-0.02em] leading-tight uppercase">
+                    GALLERY OF ARCHITECTURAL TYPOGRAPHY &amp; RIGOUR.
+                </h1>
+</div>
+<div class="col-start-1 md:col-start-9 col-span-12 md:col-span-4 self-end pt-8 md:pt-0">
+<p class="font-['Manrope'] text-[0.6875rem] uppercase tracking-[0.05em] leading-relaxed opacity-70">
+                    A MONOCHROMATIC RECORD OF TYPOGRAPHIC FORM, SIGNAGE SYSTEMS, AND KINETIC MOTION WITHIN THE BUILT ENVIRONMENT.
+                </p>
+</div>
+</header>
+<!-- Category Filter -->
+<div class="px-[5.5rem] mb-16 overflow-x-auto no-scrollbar">
+<div class="flex gap-10 border-b border-outline-variant/30 pb-4 min-w-max">
+<button class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-extrabold border-b-2 border-primary pb-4 -mb-[17px] transition-all">ALL WORKS</button>
+<button class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium opacity-40 hover:opacity-100 pb-4 transition-all">TYPOGRAPHY</button>
+<button class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium opacity-40 hover:opacity-100 pb-4 transition-all">TYPE DESIGN</button>
+<button class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium opacity-40 hover:opacity-100 pb-4 transition-all">SIGNAGE</button>
+<button class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium opacity-40 hover:opacity-100 pb-4 transition-all">MOTION</button>
+</div>
+</div>
+<!-- Portfolio Grid -->
+<section class="px-[5.5rem] space-y-32">
+<!-- Item 1: Large Scale Signage -->
+<div class="editorial-grid gap-y-8">
+<div class="col-start-1 col-span-12 md:col-span-10 group overflow-hidden bg-surface-container-low">
+<img class="w-full h-auto object-cover grayscale transition-transform duration-700 group-hover:scale-105" data-alt="Monochromatic architectural signage on a concrete building wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMsNuoTxsbWfIx26R6fATXTS_ACz4yQEnIuaLvYF72Bf-00_yG8l7o3DFrrzEgvvbAtT5dByu47dThNEt4uVqKahNl4lcOAEnzMDmdea9AXvVGdU0tBQrImtS-czNxApXeyEkQ0GgwDGJRVQFqnTvdm_-lAtMJwnUoWudHIpnYKqIsSBbXS89OIInAP4Qr8A0aJ0ve3wY46YlzzGys9sSc9MwGLtmLVkLr09w1nHZqdtusdNTBURxH4F_a6VDziCsO34eo32NRQrN8"/>
+</div>
+<div class="col-start-1 col-span-12 md:col-start-11 md:col-span-2 flex flex-col justify-end space-y-6">
+<div class="space-y-1">
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] block opacity-40">PROJECT 01 / 2024</span>
+<h3 class="font-extrabold text-lg uppercase leading-tight">CENTRAL MONOLITH SIGNAGE</h3>
+</div>
+<div class="space-y-4">
+<p class="text-[0.875rem] leading-relaxed">
+                            A WAYFINDING SYSTEM FOR THE BRUTALIST PRECINCT. ETCHED TITANIUM ON RAW CONCRETE SURFACES.
+                        </p>
+<div class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-extrabold">SIGNAGE</div>
+</div>
+</div>
+</div>
+<!-- Item 2 & 3: Asymmetric Duo -->
+<div class="editorial-grid gap-12">
+<!-- Type Design Item -->
+<div class="col-start-1 col-span-12 md:col-span-5 space-y-8">
+<div class="aspect-[4/5] bg-surface-container-highest overflow-hidden relative group">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-110" data-alt="Close up of black and white bold typographic glyphs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2YuH7evqYh6VoiAF_KzoqDNdxD1m3IHUjxEuR6W0Mdks_qDa9nKR-4ItjsH6b27W8TBDqi54hqa3fYP2lFyHDPnLNv8kY-yvAaEOl3R0rjsfjHI8UeSya9nv9jP_vDFw06UamvIIx005Rx8LV1R7NxwF6UvsGyV_EUBLdgiUiNgbY3GAD0iOA07FaktqxtVgLAvffWKtr1q-qLzCuW5XQUCI5iRrL-mNPeeCbDOPaOEekNyEoCPbafrb-cee055FJ5FGloMTHBTTY"/>
+<div class="absolute bottom-4 left-4 bg-primary text-white px-2 py-1 text-[0.625rem] font-bold tracking-[0.1em] uppercase">
+                            SPECIMEN
+                        </div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] block opacity-40">CATEGORY</span>
+<span class="text-[0.875rem] font-medium uppercase">TYPE DESIGN</span>
+</div>
+<div>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] block opacity-40">YEAR</span>
+<span class="text-[0.875rem] font-medium uppercase">2023</span>
+</div>
+<div class="col-span-2 pt-4">
+<h3 class="font-extrabold text-lg uppercase mb-2">NEO-GROTESK XL</h3>
+<p class="text-[0.875rem] leading-relaxed opacity-70">HUMBLE BRIEF: CREATE A TYPEFACE WITH ARCHITECTURAL MASS AND ZERO RADIUS JOINTS.</p>
+</div>
+</div>
+</div>
+<!-- Motion Graphic Item -->
+<div class="col-start-1 md:col-start-7 col-span-12 md:col-span-6 space-y-8">
+<div class="aspect-video bg-black flex items-center justify-center relative overflow-hidden group">
+<!-- Simplified representation of kinetic typography -->
+<div class="absolute inset-0 flex flex-col justify-center items-center opacity-80 mix-blend-difference">
+<span class="text-[4rem] font-extrabold text-white tracking-tighter leading-none group-hover:tracking-[0.2em] transition-all duration-700">MOTION</span>
+<span class="text-[4rem] font-extrabold text-white tracking-tighter leading-none group-hover:tracking-[-0.1em] transition-all duration-700">RIGOUR</span>
+</div>
+<img class="w-full h-full object-cover opacity-30 grayscale" data-alt="Abstract kinetic typography pattern in high contrast monochrome" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5hv7agAukEXndT2eQxpHW2P1XcJmGSu98dDLYyln7zxvXGwhqV0qDyKbP-BRKE9wPqSYeR_ly_e7QqM0sfzh9-fd9RTK8BlU1XzASSH98fjBMt66rDX5d_iCdZKK-BEyFLxqReMKM8qeTZBqyXgYkyWepmig8ekFILBx4vn4kbSpngmrq4s_xOMHkO1rsqt28uNAOKYsrhhTVX8TljTCDsNS2Mf1GmZOUQ9pSls2jna9_aNPVvmhDelovzDUaBxyYo3Nn6DnNgKCp"/>
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-white text-sm" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+<span class="text-white text-[0.625rem] font-bold tracking-widest uppercase">LOOP_04</span>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between gap-8 pt-4">
+<div class="max-w-xs">
+<h3 class="font-extrabold text-lg uppercase mb-2">KINETIC IDENTITY VOL. 2</h3>
+<p class="text-[0.875rem] leading-relaxed opacity-70">EXPLORING THE MOMENTUM OF TYPE IN LARGE-FORMAT DIGITAL DISPLAYS.</p>
+</div>
+<div class="text-right">
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] block opacity-40">FORMAT</span>
+<span class="text-[0.875rem] font-medium uppercase">MOTION GRAPHICS</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 4: Full Bleed Poster Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-y border-outline-variant/20">
+<div class="aspect-[2/3] border-r border-outline-variant/20 p-12 flex flex-col justify-between group cursor-pointer hover:bg-surface-container transition-colors duration-250">
+<img class="w-full h-auto grayscale mb-8" data-alt="Minimalist monochromatic Swiss-style poster design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9Bs8Qk3IboWPbeObW1ssNZHLd7dHtiX34Oa1KSiuHTsWmPVUM4_9eDd70daT5svbUqQ0bk3HLXhDkWw2KcTwblo4epXuJ7lJCx7dCyFTgwg4cP1PhlaCSrvH9Sd-pWfssTmXnz2jqI7SezackV16bS83BocqG4z2yrjAxA6EO2fWYPKBM75D4gq5MUPEbdnsPt0jWCi4AsiN_xH0Dbemsfdq1OUuEy1Bs_wASzE6xL6Tda2yzJcuS28YyTc1uFEPpTkErbPA1Cuur"/>
+<div>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.625rem] block opacity-40">POSTER 11A</span>
+<h4 class="font-extrabold text-md uppercase">SYSTEMATIC FLOW</h4>
+</div>
+</div>
+<div class="aspect-[2/3] border-r border-outline-variant/20 p-12 flex flex-col justify-between group cursor-pointer hover:bg-surface-container transition-colors duration-250">
+<div class="h-full flex items-center justify-center">
+<div class="text-[6rem] font-extrabold tracking-tighter leading-none opacity-10 group-hover:opacity-100 transition-opacity duration-500">B</div>
+</div>
+<div>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.625rem] block opacity-40">EDITORIAL</span>
+<h4 class="font-extrabold text-md uppercase">THE BOOK OF RIGOUR</h4>
+</div>
+</div>
+<div class="aspect-[2/3] p-12 flex flex-col justify-between group cursor-pointer hover:bg-surface-container transition-colors duration-250">
+<img class="w-full h-auto grayscale mb-8" data-alt="Black and white abstract architectural lines and typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1wBV19_dMwX2aa7mOwI_O1UNg9lx1aeuxhgzCBhvZG-bH26TJ8hTJq3rstmUZDOpjp3qyL0VyPwCwMlovm3cawhS119FrRc-h7eysV7zyrQq-bmAQWAUoSoEMTiFsV3iOthxDPKCxeb0-aRCtI8ywSFbCQJ0D3QS_91H03RXfn39QUii6XB_yf93L_Q9vAeDFSehf-rowf8OmfCUIr2SEkm38sTapyUuDKEwcQbqfFjgBJ9Ad6RSAWkjnVA-MpJuZDgW1WmPo1Wh-"/>
+<div>
+<span class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.625rem] block opacity-40">RESEARCH</span>
+<h4 class="font-extrabold text-md uppercase">STRUCTURAL TYPE</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="mt-48 px-[5.5rem] editorial-grid">
+<div class="col-start-1 col-span-12 md:col-span-6 bg-primary text-white p-16 flex flex-col justify-between h-[400px]">
+<h2 class="text-[2.5rem] font-extrabold leading-tight tracking-tight uppercase">HAVE A PROJECT THAT REQUIRES TYPOGRAPHIC RIGOUR?</h2>
+<button class="w-fit bg-white text-black px-10 py-4 font-bold text-[0.6875rem] tracking-[0.1em] uppercase hover:bg-on-tertiary-fixed-variant transition-colors active:scale-95">
+                    GET IN TOUCH
+                </button>
+</div>
+<div class="col-start-1 md:col-start-8 col-span-12 md:col-span-5 flex flex-col justify-center py-12 md:py-0">
+<p class="text-[1.25rem] font-light leading-relaxed mb-8 italic">
+                    "We believe that the alphabet is the most powerful architectural tool ever invented."
+                </p>
+<div class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-extrabold">— THE STUDIO MANIFESTO</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-start md:items-center px-[5.5rem] py-24 gap-8 bg-[#f3f3f4] dark:bg-[#1a1c1c] text-[#000000] dark:text-[#ffffff] transition-colors duration-250">
+<div class="flex flex-col gap-4">
+<div class="font-extrabold text-[#000000] dark:text-[#ffffff] uppercase tracking-tighter">BEST DESIGNERS</div>
+<p class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium opacity-60">© BEST DESIGNERS. BUILT WITH RIGOUR.</p>
+</div>
+<div class="flex flex-col md:flex-row gap-8">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">ACKNOWLEDGEMENT OF COUNTRY: EASTERN KULIN NATIONS</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">INSTAGRAM</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">ARE.NA</a>
+</div>
+</footer>
+</body></html>
+
+<!-- Gallery - Typography & Signage Portfolio -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RESEARCH — BEST DESIGNERS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#e4e2e1",
+              "error-container": "#ffdad6",
+              "on-primary-fixed": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "outline": "#777777",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-tertiary": "#e4e2e1",
+              "tertiary-container": "#757474",
+              "on-tertiary-container": "#ffffff",
+              "surface-container": "#eeeeee",
+              "on-primary": "#e2e2e2",
+              "on-secondary-fixed": "#1c1b1b",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#410002",
+              "on-surface-variant": "#474747",
+              "primary-container": "#3b3b3b",
+              "error": "#ba1a1a",
+              "surface-bright": "#f9f9f9",
+              "surface-container-low": "#f3f3f4",
+              "surface-container-highest": "#e2e2e2",
+              "on-error": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "inverse-surface": "#2f3131",
+              "secondary": "#5f5e5e",
+              "on-background": "#1a1c1c",
+              "surface": "#f9f9f9",
+              "inverse-on-surface": "#f0f1f1",
+              "primary-fixed": "#5e5e5e",
+              "on-primary-container": "#ffffff",
+              "tertiary-fixed": "#5f5e5e",
+              "tertiary-fixed-dim": "#474747",
+              "primary": "#000000",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#c8c6c5",
+              "on-secondary-container": "#1c1b1b",
+              "primary-fixed-dim": "#474747",
+              "on-tertiary-fixed": "#ffffff",
+              "inverse-primary": "#c6c6c6",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "surface-variant": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "surface-dim": "#dadada",
+              "secondary-fixed-dim": "#adabaa",
+              "tertiary": "#3b3b3b",
+              "background": "#f9f9f9",
+              "on-secondary": "#ffffff",
+              "outline-variant": "#c6c6c6"
+            },
+            fontFamily: {
+              "headline": ["Manrope", "sans-serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .kerning-tight { letter-spacing: -0.02em; }
+        .kerning-tracked { letter-spacing: 0.05em; }
+        body { -webkit-font-smoothing: antialiased; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full flex justify-between items-center px-[5.5rem] py-8 bg-[#f9f9f9] dark:bg-[#000000] z-50 transition-colors duration-250">
+<div class="text-[1.75rem] font-extrabold tracking-[-0.02em] text-[#000000] dark:text-[#ffffff]">BEST DESIGNERS</div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">PORTFOLIO</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">GALLERY</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#000000] dark:text-[#ffffff] font-extrabold border-b-2 border-[#000000] dark:border-[#ffffff] pb-1 active:scale-95" href="#">RESEARCH</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">CONTACT</a>
+</div>
+</nav>
+<main class="pt-48 pb-24">
+<!-- Hero: The Architecture of Thought -->
+<header class="px-[5.5rem] mb-32 grid grid-cols-12 gap-4">
+<div class="col-span-12 md:col-span-8">
+<span class="font-label text-[0.6875rem] uppercase kerning-tracked mb-6 block text-primary opacity-40">Section 01 / Investigation</span>
+<h1 class="font-headline font-extrabold text-[3.5rem] md:text-[5rem] leading-[0.9] kerning-tight mb-12">THE ARCHITECTURE OF THOUGHT.</h1>
+<p class="font-body text-[1.25rem] leading-relaxed max-w-xl text-on-surface opacity-80">
+                    Our research is a pursuit of typographic rigour. We investigate the intersection of analogue drafting and digital execution, framing language as a structural material.
+                </p>
+</div>
+</header>
+<!-- Type Specimen Section -->
+<section class="bg-surface-container-low py-32 px-[5.5rem]">
+<div class="grid grid-cols-12 gap-8 items-end mb-24">
+<div class="col-span-12 md:col-span-6">
+<span class="font-label text-[0.6875rem] uppercase kerning-tracked mb-2 block text-primary">CUSTOM TYPEFACE v.02</span>
+<h2 class="font-headline font-extrabold text-[1.75rem] kerning-tight uppercase">MANROPE MONOLITH</h2>
+</div>
+<div class="col-span-12 md:col-span-6 text-right">
+<p class="font-label text-[0.6875rem] kerning-tracked opacity-50">STRETCH: 100% / WEIGHT: 200–800 / KERNING: -0.02EM</p>
+</div>
+</div>
+<div class="space-y-16">
+<!-- Large Scale -->
+<div class="border-b border-outline-variant pb-8 overflow-hidden">
+<div class="flex justify-between items-baseline mb-4">
+<span class="font-label text-[0.6875rem] opacity-40">120PX / EXTRABOLD</span>
+<span class="font-label text-[0.6875rem] opacity-40">DISPLAY_LG</span>
+</div>
+<div class="text-[120px] font-extrabold leading-[0.8] kerning-tight whitespace-nowrap">STRUCTURE.</div>
+</div>
+<!-- Mid Scale -->
+<div class="border-b border-outline-variant pb-8">
+<div class="flex justify-between items-baseline mb-4">
+<span class="font-label text-[0.6875rem] opacity-40">48PX / MEDIUM</span>
+<span class="font-label text-[0.6875rem] opacity-40">HEADLINE_MD</span>
+</div>
+<div class="text-[48px] font-medium leading-[1] kerning-tight">THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.</div>
+</div>
+<!-- Small Scale -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 border-b border-outline-variant pb-8">
+<div>
+<div class="flex justify-between items-baseline mb-4">
+<span class="font-label text-[0.6875rem] opacity-40">16PX / LIGHT</span>
+<span class="font-label text-[0.6875rem] opacity-40">BODY_MD</span>
+</div>
+<p class="text-[16px] font-light leading-relaxed">
+                            Typography is the mortar between architectural blocks. It defines the rhythm of the viewport, moving beyond simple legibility into the realm of spatial presence. Every glyph is a calculated decision in structural integrity.
+                        </p>
+</div>
+<div>
+<div class="flex justify-between items-baseline mb-4">
+<span class="font-label text-[0.6875rem] opacity-40">8PX / THIN</span>
+<span class="font-label text-[0.6875rem] opacity-40">LABEL_XS</span>
+</div>
+<p class="text-[8px] font-thin uppercase tracking-[0.1em] leading-tight">
+                            The visual investigation continues through the lens of pure geometry and mathematical precision. This typeface represents the studio's commitment to mechanical perfection and typographic heritage.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Drafting & Sketches: Bento Grid -->
+<section class="py-32 px-[5.5rem] grid grid-cols-1 md:grid-cols-12 gap-4">
+<div class="col-span-12 md:col-span-7 bg-surface-container h-[600px] relative group overflow-hidden">
+<img alt="Drafting table" class="w-full h-full object-cover grayscale opacity-90 group-hover:scale-105 transition-transform duration-700" data-alt="High contrast analogue architectural signage drafting with technical pencils and rulers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8hYF9MINSp0i3llBCBbxKwXtSCDQGxAYXSTbt8Z9dPYsobkJPbbZ_Euma97sRIu7I2TZF0NpYnGWv8nSRE-jKiVf68FflYuwWNn0BXqNkVIR6_OlNrfDkPrVsB-kaMHGgf1tcPfBLSDKK0A36a0WV-ZVz0lrMSfVAZsYEoGxbhjcq4F2IeSwmfjXUxT0np094Allf59-4Kto9HiYrQKmlqujm_MfAeZiAMeZGQm6uIK1jbTFkmLAr_Vq7rHY-UBNs83WRycnifjji"/>
+<div class="absolute bottom-6 left-6 bg-primary text-white p-4">
+<p class="font-label text-[0.6875rem] kerning-tracked uppercase">ANALOGUE DRAFTING 001</p>
+</div>
+</div>
+<div class="col-span-12 md:col-span-5 flex flex-col gap-4">
+<div class="bg-surface-container-high h-[292px] relative group overflow-hidden">
+<img alt="Grid system" class="w-full h-full object-cover grayscale opacity-90 group-hover:scale-105 transition-transform duration-700" data-alt="Abstract monochrome grid system construction on architectural paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKf2x4NyMjCEo9f5B2Paxwt0EzzF42evwpkZadnMSEHZJSRHXSUjjC1MsofClB4t8wrOWZcLgxf_bxdVXC3kocbVh21_ior8ygJfq9wJQSWyTP_FNrNIwClUlBy89fL_T9dDBTGJEsP5CqSIrXO87a5OzOYT_Wisss0G_zKL4VTsFYkNvF6FsWM5UMXbV3vb-6A9B1uJM9b9dolhV-MFxIKnEku8xl0HPvfXCUOrso66_PfhE23XShgtU_yd9xFwABwSQS49ZynUkE"/>
+<div class="absolute bottom-4 left-4 bg-white text-black p-2">
+<p class="font-label text-[0.6875rem] kerning-tracked">GRID_SYSTEM.PDF</p>
+</div>
+</div>
+<div class="bg-primary h-[292px] p-12 flex flex-col justify-between text-white">
+<h3 class="font-headline font-extrabold text-[1.5rem] kerning-tight uppercase">SIGNAGE INVESTIGATION</h3>
+<p class="font-body text-[0.875rem] opacity-60 leading-relaxed">Studying the kinetic energy of letterforms in physical environments. Melbourne CBD case study.</p>
+</div>
+</div>
+</section>
+<!-- Whitepapers Section -->
+<section class="bg-surface py-32 px-[5.5rem]">
+<div class="mb-16">
+<h2 class="font-headline font-extrabold text-[1.75rem] kerning-tight uppercase">PUBLISHED WHITEPAPERS</h2>
+</div>
+<div class="divide-y divide-outline-variant">
+<div class="py-12 flex flex-col md:flex-row justify-between items-start md:items-center hover:bg-surface-container-low transition-colors duration-250 cursor-pointer group px-4 -mx-4">
+<div class="flex gap-12 items-baseline">
+<span class="font-label text-[0.6875rem] opacity-40">001</span>
+<h3 class="font-headline font-extrabold text-[2rem] kerning-tight group-hover:translate-x-4 transition-transform duration-250">STRUCTURAL INTEGRITY VS VISUAL CHAOS.</h3>
+</div>
+<div class="flex items-center gap-4 mt-4 md:mt-0">
+<span class="font-label text-[0.6875rem] kerning-tracked opacity-60">24.08.2023</span>
+<span class="material-symbols-outlined text-[1.5rem] group-hover:rotate-45 transition-transform duration-250">arrow_outward</span>
+</div>
+</div>
+<div class="py-12 flex flex-col md:flex-row justify-between items-start md:items-center hover:bg-surface-container-low transition-colors duration-250 cursor-pointer group px-4 -mx-4">
+<div class="flex gap-12 items-baseline">
+<span class="font-label text-[0.6875rem] opacity-40">002</span>
+<h3 class="font-headline font-extrabold text-[2rem] kerning-tight group-hover:translate-x-4 transition-transform duration-250">THE MELBOURNE MINIMALIST MANIFESTO.</h3>
+</div>
+<div class="flex items-center gap-4 mt-4 md:mt-0">
+<span class="font-label text-[0.6875rem] kerning-tracked opacity-60">12.11.2023</span>
+<span class="material-symbols-outlined text-[1.5rem] group-hover:rotate-45 transition-transform duration-250">arrow_outward</span>
+</div>
+</div>
+<div class="py-12 flex flex-col md:flex-row justify-between items-start md:items-center hover:bg-surface-container-low transition-colors duration-250 cursor-pointer group px-4 -mx-4">
+<div class="flex gap-12 items-baseline">
+<span class="font-label text-[0.6875rem] opacity-40">003</span>
+<h3 class="font-headline font-extrabold text-[2rem] kerning-tight group-hover:translate-x-4 transition-transform duration-250">KINETIC TYPOGRAPHY AS SPATIAL ANCHOR.</h3>
+</div>
+<div class="flex items-center gap-4 mt-4 md:mt-0">
+<span class="font-label text-[0.6875rem] kerning-tracked opacity-60">05.01.2024</span>
+<span class="material-symbols-outlined text-[1.5rem] group-hover:rotate-45 transition-transform duration-250">arrow_outward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Method Section -->
+<section class="py-32 px-[5.5rem] grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-4 border-l border-primary pl-8 pt-4">
+<h4 class="font-headline font-extrabold text-[1rem] uppercase mb-4">RIGOUR.</h4>
+<p class="font-body text-[0.875rem] leading-relaxed opacity-70">Every pixel must defend its existence. We apply architectural standards to graphic systems, ensuring longevity over trends.</p>
+</div>
+<div class="col-span-12 md:col-span-4 border-l border-primary pl-8 pt-4">
+<h4 class="font-headline font-extrabold text-[1rem] uppercase mb-4">SYSTEMS.</h4>
+<p class="font-body text-[0.875rem] leading-relaxed opacity-70">Design is not an event, it is a framework. We build generative systems that evolve with the brand's spatial needs.</p>
+</div>
+<div class="col-span-12 md:col-span-4 border-l border-primary pl-8 pt-4">
+<h4 class="font-headline font-extrabold text-[1rem] uppercase mb-4">VOICE.</h4>
+<p class="font-body text-[0.875rem] leading-relaxed opacity-70">Language is the foundation of identity. We treat copywriting and typography as a singular architectural unit.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-start md:items-center px-[5.5rem] py-24 gap-8 bg-[#f3f3f4] dark:bg-[#1a1c1c] transition-colors duration-250">
+<div class="flex flex-col gap-2">
+<div class="font-extrabold text-[#000000] dark:text-[#ffffff] uppercase font-['Manrope'] tracking-[0.05em] text-[0.6875rem]">BEST DESIGNERS</div>
+<p class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70">© BEST DESIGNERS. BUILT WITH RIGOUR.</p>
+</div>
+<div class="flex flex-col md:flex-row gap-8">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">ACKNOWLEDGEMENT OF COUNTRY: EASTERN KULIN NATIONS</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">INSTAGRAM</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] dark:hover:text-[#ffffff] transition-all duration-250" href="#">ARE.NA</a>
+</div>
+</footer>
+</body></html>
+
+<!-- Research - The Architecture of Thought -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed": "#ffffff",
+              "background": "#f9f9f9",
+              "inverse-surface": "#2f3131",
+              "error": "#ba1a1a",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "primary-fixed": "#5e5e5e",
+              "on-tertiary": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "inverse-primary": "#c6c6c6",
+              "tertiary-container": "#747474",
+              "surface-container-lowest": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "on-error": "#ffffff",
+              "outline": "#777777",
+              "on-background": "#1a1c1c",
+              "surface-bright": "#f9f9f9",
+              "secondary-fixed": "#c8c6c5",
+              "primary-container": "#3b3b3b",
+              "on-secondary": "#ffffff",
+              "secondary-fixed-dim": "#adabaa",
+              "surface-dim": "#dadada",
+              "outline-variant": "#c6c6c6",
+              "primary-fixed-dim": "#474747",
+              "inverse-on-surface": "#f0f1f1",
+              "on-secondary-fixed": "#1c1b1b",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#410002",
+              "surface-container-highest": "#e2e2e2",
+              "surface-container": "#eeeeee",
+              "secondary": "#5f5e5e",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-secondary-container": "#1c1b1b",
+              "tertiary": "#3b3b3b",
+              "primary": "#000000",
+              "on-tertiary-container": "#ffffff",
+              "on-primary-container": "#ffffff",
+              "error-container": "#ffdad6",
+              "surface-tint": "#5e5e5e",
+              "surface-variant": "#e2e2e2",
+              "on-primary-fixed": "#ffffff",
+              "on-primary": "#e2e2e2",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "tertiary-fixed-dim": "#474747",
+              "tertiary-fixed": "#5e5e5e",
+              "surface": "#f9f9f9",
+              "surface-container-low": "#f3f3f4",
+              "on-surface-variant": "#474747"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #1a1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .kerning-display {
+            letter-spacing: -0.1em;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar Navigation Shell -->
+<nav class="fixed top-0 left-0 z-50 flex justify-between items-center w-full px-12 py-8 max-w-full bg-[#f3f3f4] dark:bg-[#2a2c2c] transition-colors duration-300">
+<div class="font-['Manrope'] text-2xl font-black tracking-tighter text-[#000000] dark:text-[#f9f9f9]">
+            BEST DESIGNERS
+        </div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Manrope'] tracking-[-0.04em] uppercase text-[0.75rem] font-bold text-[#1a1c1c]/60 dark:text-[#f9f9f9]/60 hover:text-[#000000] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">Portfolio</a>
+<a class="font-['Manrope'] tracking-[-0.04em] uppercase text-[0.75rem] font-bold text-[#1a1c1c]/60 dark:text-[#f9f9f9]/60 hover:text-[#000000] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">Gallery</a>
+<a class="font-['Manrope'] tracking-[-0.04em] uppercase text-[0.75rem] font-bold text-[#000000] dark:text-[#ffffff] border-b-2 border-[#000000] dark:border-[#ffffff] pb-1" href="#">Research</a>
+<a class="font-['Manrope'] tracking-[-0.04em] uppercase text-[0.75rem] font-bold text-[#1a1c1c]/60 dark:text-[#f9f9f9]/60 hover:text-[#000000] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">Contact</a>
+</div>
+<button class="md:hidden">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-12 mb-48">
+<div class="editorial-grid gap-4">
+<div class="col-start-1 col-span-12 lg:col-start-2 lg:col-span-10">
+<span class="label-md font-label uppercase tracking-[0.2em] text-outline mb-8 block">Project Type: Custom Typeface 01-MM</span>
+<h1 class="font-headline text-[10vw] font-extrabold leading-[0.85] tracking-[-0.06em] uppercase mb-12">
+                        MELBOURNE <br/> MONOLITH
+                    </h1>
+</div>
+<div class="col-start-1 col-span-12 lg:col-start-6 lg:col-span-6">
+<p class="font-body text-xl leading-relaxed text-on-surface mb-8">
+                        MELBOURNE MONOLITH is a bespoke display typeface inspired by the brutalist architectural rigour of the city's concrete giants. It is an exploration of mass and void, where negative space is as deliberate as the strokes themselves. Designed for maximum impact in editorial and environmental contexts.
+                    </p>
+<p class="font-body text-sm text-outline leading-relaxed uppercase tracking-widest">
+                        A HUMBLE BRIEF: TO CAPTURE THE ANALOGUE WEIGHT OF STONE THROUGH DIGITAL PRECISION.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Specimen Section -->
+<section class="bg-surface-container-low py-24 px-12 mb-48">
+<div class="editorial-grid">
+<div class="col-span-12 border-b border-outline/10 pb-4 mb-16">
+<span class="font-label text-xs uppercase tracking-widest">01 / Type Specimen</span>
+</div>
+<div class="col-span-12 space-y-24">
+<div>
+<span class="font-label text-xs uppercase text-outline mb-4 block">120PT Display</span>
+<div class="font-headline text-8xl font-extrabold tracking-tighter uppercase leading-none">Concrete Poetics</div>
+</div>
+<div>
+<span class="font-label text-xs uppercase text-outline mb-4 block">72PT Headline</span>
+<div class="font-headline text-6xl font-bold tracking-tighter uppercase leading-none">Architectural Integrity &amp; Rigour</div>
+</div>
+<div>
+<span class="font-label text-xs uppercase text-outline mb-4 block">36PT Subhead</span>
+<div class="font-headline text-4xl font-normal tracking-tight leading-snug">The intersection of Brutalism and refined digital typography. Developed in Naarm.</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Macro Details: Bento Grid Style -->
+<section class="px-12 mb-48">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+<div class="aspect-square bg-primary text-on-primary flex flex-col justify-end p-8">
+<span class="font-label text-[0.6rem] uppercase tracking-widest mb-auto opacity-50">Feature 01</span>
+<div class="font-headline text-9xl font-black leading-none mb-4">g</div>
+<p class="font-body text-xs uppercase tracking-[0.1em] leading-relaxed">The lowercase 'g' features a closed loop that mimics the structural support of modern pylons.</p>
+</div>
+<div class="aspect-square bg-surface-container-highest flex flex-col justify-end p-8 border-l border-white/10">
+<span class="font-label text-[0.6rem] uppercase tracking-widest mb-auto">Feature 02</span>
+<div class="font-headline text-9xl font-black leading-none mb-4 tracking-[-0.15em] kerning-display">AV</div>
+<p class="font-body text-xs uppercase tracking-[0.1em] leading-relaxed">Manual kerning pairs ensure optimal density. The 'AV' collision is celebrated, not avoided.</p>
+</div>
+<div class="aspect-square bg-surface-container-low flex flex-col justify-center items-center p-8">
+<div class="relative w-full h-full flex items-center justify-center">
+<div class="absolute inset-0 bg-primary/5"></div>
+<div class="font-headline text-[15rem] font-bold text-primary leading-none select-none">R</div>
+<div class="absolute bottom-8 left-0 right-0 px-8">
+<span class="font-label text-[0.6rem] uppercase tracking-widest block mb-1 opacity-60">Anatomy</span>
+<p class="font-body text-xs uppercase tracking-[0.1em]">Ink traps at the junction of the bowl and leg maintain clarity at smaller scales.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Character Set Grid -->
+<section class="bg-primary py-32 px-12 mb-48 overflow-hidden">
+<div class="editorial-grid mb-16">
+<div class="col-span-12">
+<h2 class="font-headline text-4xl text-on-primary font-bold uppercase tracking-tight mb-4">Complete Character Set</h2>
+<p class="font-body text-on-primary/60 text-sm uppercase tracking-widest">Glyph Mapping Version 1.0.4 - Analogue Origins</p>
+</div>
+</div>
+<div class="grid grid-cols-4 sm:grid-cols-8 md:grid-cols-13 gap-y-12 text-on-primary text-center">
+<!-- Uppercase -->
+<div class="font-headline text-3xl">A</div><div class="font-headline text-3xl">B</div><div class="font-headline text-3xl">C</div><div class="font-headline text-3xl">D</div><div class="font-headline text-3xl">E</div><div class="font-headline text-3xl">F</div><div class="font-headline text-3xl">G</div><div class="font-headline text-3xl">H</div><div class="font-headline text-3xl">I</div><div class="font-headline text-3xl">J</div><div class="font-headline text-3xl">K</div><div class="font-headline text-3xl">L</div><div class="font-headline text-3xl">M</div><div class="font-headline text-3xl">N</div><div class="font-headline text-3xl">O</div><div class="font-headline text-3xl">P</div><div class="font-headline text-3xl">Q</div><div class="font-headline text-3xl">R</div><div class="font-headline text-3xl">S</div><div class="font-headline text-3xl">T</div><div class="font-headline text-3xl">U</div><div class="font-headline text-3xl">V</div><div class="font-headline text-3xl">W</div><div class="font-headline text-3xl">X</div><div class="font-headline text-3xl">Y</div><div class="font-headline text-3xl">Z</div>
+<!-- Lowercase -->
+<div class="font-headline text-3xl font-light opacity-50">a</div><div class="font-headline text-3xl font-light opacity-50">b</div><div class="font-headline text-3xl font-light opacity-50">c</div><div class="font-headline text-3xl font-light opacity-50">d</div><div class="font-headline text-3xl font-light opacity-50">e</div><div class="font-headline text-3xl font-light opacity-50">f</div><div class="font-headline text-3xl font-light opacity-50">g</div><div class="font-headline text-3xl font-light opacity-50">h</div><div class="font-headline text-3xl font-light opacity-50">i</div><div class="font-headline text-3xl font-light opacity-50">j</div><div class="font-headline text-3xl font-light opacity-50">k</div><div class="font-headline text-3xl font-light opacity-50">l</div><div class="font-headline text-3xl font-light opacity-50">m</div><div class="font-headline text-3xl font-light opacity-50">n</div><div class="font-headline text-3xl font-light opacity-50">o</div><div class="font-headline text-3xl font-light opacity-50">p</div><div class="font-headline text-3xl font-light opacity-50">q</div><div class="font-headline text-3xl font-light opacity-50">r</div><div class="font-headline text-3xl font-light opacity-50">s</div><div class="font-headline text-3xl font-light opacity-50">t</div><div class="font-headline text-3xl font-light opacity-50">u</div><div class="font-headline text-3xl font-light opacity-50">v</div><div class="font-headline text-3xl font-light opacity-50">w</div><div class="font-headline text-3xl font-light opacity-50">x</div><div class="font-headline text-3xl font-light opacity-50">y</div><div class="font-headline text-3xl font-light opacity-50">z</div>
+<!-- Numerals & Punctuation -->
+<div class="font-headline text-3xl">0</div><div class="font-headline text-3xl">1</div><div class="font-headline text-3xl">2</div><div class="font-headline text-3xl">3</div><div class="font-headline text-3xl">4</div><div class="font-headline text-3xl">5</div><div class="font-headline text-3xl">6</div><div class="font-headline text-3xl">7</div><div class="font-headline text-3xl">8</div><div class="font-headline text-3xl">9</div><div class="font-headline text-3xl">.</div><div class="font-headline text-3xl">,</div><div class="font-headline text-3xl">?</div>
+</div>
+</section>
+<!-- Technical Data: CSS Snippets -->
+<section class="px-12 mb-48">
+<div class="editorial-grid gap-12">
+<div class="col-span-12 lg:col-span-4">
+<h3 class="font-headline text-2xl font-bold uppercase mb-4">Implementation</h3>
+<p class="font-body text-sm text-outline leading-relaxed">The Melbourne Monolith family is optimized for web deployment via CSS variable fonts. Below are the standard implementation tokens for architectural layout consistency.</p>
+</div>
+<div class="col-span-12 lg:col-span-8 bg-surface-container-high p-12 overflow-x-auto">
+<pre class="font-mono text-xs text-on-surface leading-loose">/* TYPOGRAPHIC SYSTEM : MONOLITH */
+
+.h1-monolith {
+  font-family: 'Melbourne Monolith';
+  font-weight: 800;
+  font-size: 12.5rem;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.label-monolith {
+  font-family: 'Melbourne Monolith';
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.body-rigour {
+  font-family: 'Inter';
+  line-height: 1.6;
+  font-feature-settings: "ss01", "cv02";
+}</pre>
+</div>
+</div>
+</section>
+<!-- Glyph Study Section -->
+<section class="mb-48">
+<div class="flex flex-col md:flex-row border-t border-outline/10">
+<div class="flex-1 aspect-[4/5] bg-surface flex items-center justify-center border-r border-outline/10 group relative">
+<div class="font-headline text-[30vw] font-bold transition-transform group-hover:scale-110 duration-700">M</div>
+<div class="absolute bottom-8 left-8">
+<span class="label-md font-label uppercase tracking-widest text-outline">Primary Anchor / M</span>
+</div>
+</div>
+<div class="flex-1 aspect-[4/5] bg-surface-container-low flex items-center justify-center group relative">
+<div class="font-headline text-[30vw] font-bold transition-transform group-hover:scale-110 duration-700">O</div>
+<div class="absolute bottom-8 left-8">
+<span class="label-md font-label uppercase tracking-widest text-outline">Circular Rigour / O</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Navigation Shell -->
+<footer class="flex flex-col md:flex-row justify-between items-start w-full px-12 py-24 mt-24 bg-[#f3f3f4] dark:bg-[#121212] transition-colors duration-300">
+<div class="mb-12 md:mb-0 max-w-md">
+<p class="font-['Inter'] text-[0.75rem] tracking-[0.1em] uppercase text-[#000000] dark:text-[#f9f9f9] leading-relaxed mb-6">
+                © 2024 BEST DESIGNERS. ARCHITECTURAL RIGOUR.
+            </p>
+<p class="font-['Inter'] text-[0.7rem] tracking-[0.05em] uppercase opacity-50 leading-relaxed">
+                WE ACKNOWLEDGE THE TRADITIONAL CUSTODIANS OF THE LAND ON WHICH WE WORK AND PAY OUR RESPECTS TO ELDERS PAST, PRESENT AND EMERGING.
+            </p>
+</div>
+<div class="flex gap-12">
+<a class="font-['Inter'] text-[0.75rem] tracking-[0.1em] uppercase text-[#000000] dark:text-[#f9f9f9] opacity-50 hover:opacity-100 transition-opacity" href="#">Instagram</a>
+<a class="font-['Inter'] text-[0.75rem] tracking-[0.1em] uppercase text-[#000000] dark:text-[#f9f9f9] opacity-50 hover:opacity-100 transition-opacity" href="#">LinkedIn</a>
+<a class="font-['Inter'] text-[0.75rem] tracking-[0.1em] uppercase text-[#000000] dark:text-[#f9f9f9] opacity-50 hover:opacity-100 transition-opacity underline decoration-2 underline-offset-4" href="#">Archive</a>
+</div>
+</footer>
+</body></html>
+
+<!-- Project - Custom Typeface: Melbourne Monolith -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CONTACT — BEST DESIGNERS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#e4e2e1",
+              "error-container": "#ffdad6",
+              "on-primary-fixed": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "outline": "#777777",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-tertiary": "#e4e2e1",
+              "tertiary-container": "#757474",
+              "on-tertiary-container": "#ffffff",
+              "surface-container": "#eeeeee",
+              "on-primary": "#e2e2e2",
+              "on-secondary-fixed": "#1c1b1b",
+              "surface-container-high": "#e8e8e8",
+              "on-error-container": "#410002",
+              "on-surface-variant": "#474747",
+              "primary-container": "#3b3b3b",
+              "error": "#ba1a1a",
+              "surface-bright": "#f9f9f9",
+              "surface-container-low": "#f3f3f4",
+              "surface-container-highest": "#e2e2e2",
+              "on-error": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "inverse-surface": "#2f3131",
+              "secondary": "#5f5e5e",
+              "on-background": "#1a1c1c",
+              "surface": "#f9f9f9",
+              "inverse-on-surface": "#f0f1f1",
+              "primary-fixed": "#5e5e5e",
+              "on-primary-container": "#ffffff",
+              "tertiary-fixed": "#5f5e5e",
+              "tertiary-fixed-dim": "#474747",
+              "primary": "#000000",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#c8c6c5",
+              "on-secondary-container": "#1c1b1b",
+              "primary-fixed-dim": "#474747",
+              "on-tertiary-fixed": "#ffffff",
+              "inverse-primary": "#c6c6c6",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "surface-variant": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "surface-dim": "#dadada",
+              "secondary-fixed-dim": "#adabaa",
+              "tertiary": "#3b3b3b",
+              "background": "#f9f9f9",
+              "on-secondary": "#ffffff",
+              "outline-variant": "#c6c6c6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #1a1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+<body class="font-body">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full flex justify-between items-center px-[5.5rem] py-8 bg-[#f9f9f9] dark:bg-[#000000] z-50 transition-colors duration-250">
+<div class="text-[1.75rem] font-extrabold tracking-[-0.02em] text-[#000000] dark:text-[#ffffff]">
+            BEST DESIGNERS
+        </div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">PORTFOLIO</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">GALLERY</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-60 hover:opacity-100 hover:text-[#5e5e5e] transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-95" href="#">RESEARCH</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#000000] dark:text-[#ffffff] font-extrabold border-b-2 border-[#000000] dark:border-[#ffffff] pb-1" href="#">CONTACT</a>
+</div>
+</nav>
+<main class="pt-48 pb-24 px-[5.5rem] min-h-screen grid grid-cols-12">
+<!-- Header Section -->
+<header class="col-span-12 mb-24">
+<h1 class="font-headline font-extrabold text-[3.5rem] md:text-[5rem] leading-[1.1] tracking-[-0.02em] uppercase max-w-4xl">
+                LET'S DEFINE THE RIGOUR.
+            </h1>
+</header>
+<!-- Form & Sidebar Layout -->
+<div class="col-span-12 lg:col-span-7 pr-0 lg:pr-24">
+<form class="flex flex-col gap-16">
+<!-- Name Field -->
+<div class="group border-b border-outline-variant pb-4 transition-all duration-300">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">IDENTIFICATION</label>
+<input class="w-full bg-transparent border-none p-0 mt-4 font-headline text-2xl font-extrabold focus:ring-0 placeholder:opacity-20 placeholder:text-primary" placeholder="NAME / STUDIO" type="text"/>
+</div>
+<!-- Email Field -->
+<div class="group border-b border-outline-variant pb-4 transition-all duration-300">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">CONTACT ELECTRONIC</label>
+<input class="w-full bg-transparent border-none p-0 mt-4 font-headline text-2xl font-extrabold focus:ring-0 placeholder:opacity-20 placeholder:text-primary" placeholder="EMAIL ADDRESS" type="email"/>
+</div>
+<!-- Inquiries Section -->
+<div class="flex flex-col gap-8">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">PROJECT ENQUIRY TYPE</label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<button class="border border-outline-variant px-6 py-8 text-left hover:bg-primary hover:text-white transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-[0.98]" type="button">
+<span class="font-headline font-extrabold text-lg block mb-2">01</span>
+<span class="font-label text-[0.6875rem] uppercase tracking-[0.05em]">TYPOGRAPHIC SYSTEMS</span>
+</button>
+<button class="border border-outline-variant px-6 py-8 text-left hover:bg-primary hover:text-white transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-[0.98]" type="button">
+<span class="font-headline font-extrabold text-lg block mb-2">02</span>
+<span class="font-label text-[0.6875rem] uppercase tracking-[0.05em]">TYPE DESIGN</span>
+</button>
+<button class="border border-outline-variant px-6 py-8 text-left hover:bg-primary hover:text-white transition-all duration-250 ease-[cubic-bezier(0,0,0,1)] active:scale-[0.98]" type="button">
+<span class="font-headline font-extrabold text-lg block mb-2">03</span>
+<span class="font-label text-[0.6875rem] uppercase tracking-[0.05em]">MOTION</span>
+</button>
+</div>
+</div>
+<!-- Message Field -->
+<div class="group border-b border-outline-variant pb-4 transition-all duration-300">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">SCOPE OF WORK</label>
+<textarea class="w-full bg-transparent border-none p-0 mt-4 font-body text-lg leading-relaxed focus:ring-0 placeholder:opacity-20 placeholder:text-primary" placeholder="DESCRIBE THE PARAMETERS" rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<div class="pt-8">
+<button class="bg-primary text-on-primary-fixed px-12 py-6 font-label font-extrabold text-[0.6875rem] tracking-[0.1em] uppercase hover:bg-primary-fixed transition-colors duration-150 active:scale-95" type="submit">
+                        INITIALISE DIALOGUE
+                    </button>
+</div>
+</form>
+</div>
+<!-- Sidebar / Physical Context -->
+<aside class="col-span-12 lg:col-span-5 mt-24 lg:mt-0 flex flex-col gap-16">
+<div class="space-y-4">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">LOCATION / PHYSICAL</label>
+<p class="font-headline font-extrabold text-2xl tracking-tight leading-snug">
+                    88 COLLINS STREET,<br/>
+                    MELBOURNE, VIC 3000,<br/>
+                    AUSTRALIA
+                </p>
+<div class="w-full h-80 bg-surface-container-high relative overflow-hidden">
+<img alt="Melbourne Architecture" class="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply" data-alt="Monochrome architectural view of Melbourne city grid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdHSX-e6ndR1A1DuuclMEW1Q3grZoJkAjA2MxyE-FYfr1yrljGmaZZ3Ff2O_EmKh_PLVufx8sqxPZxt-b2ETYWh8cO95WpJ_9TpuPIlxqWwDruQv-34Ot6909X9eUZZgeNIMyS9UbRS_PzHdEhK4Zmmr9naOHbJtthPUq7j5beaESkZX4d9GV3GQfKFnw-l0LlSWtBdUlqhg43njJ4EycrwgObR7EhYNyKmfWSCtdd_I0dVnLNluNw8YhPuZUlcLu_rj02uPK7RP6H"/>
+<div class="absolute bottom-4 left-4 bg-white px-3 py-1 text-[0.6rem] font-label font-extrabold tracking-widest uppercase">
+                        COORDINATES: -37.8136, 144.9631
+                    </div>
+</div>
+</div>
+<div class="space-y-4">
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60">GENERAL ENQUIRIES</label>
+<a class="block font-headline font-extrabold text-2xl tracking-tight hover:underline decoration-2 underline-offset-8" href="mailto:hello@bestdesigners.au">
+                    HELLO@BESTDESIGNERS.AU
+                </a>
+</div>
+<div class="space-y-4 pt-8">
+<div class="flex items-center gap-4 text-primary">
+<span class="material-symbols-outlined text-[3rem]">schedule</span>
+<div>
+<label class="font-label text-[0.6875rem] uppercase tracking-[0.05em] font-medium opacity-60 block">MELBOURNE TIME</label>
+<span class="font-headline font-extrabold text-xl uppercase">AEST / GMT+10</span>
+</div>
+</div>
+</div>
+</aside>
+</main>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-start md:items-center px-[5.5rem] py-24 gap-8 bg-[#f3f3f4] dark:bg-[#1a1c1c] text-[#000000] dark:text-[#ffffff]">
+<div class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium max-w-sm">
+            ACKNOWLEDGEMENT OF COUNTRY: EASTERN KULIN NATIONS
+        </div>
+<div class="font-extrabold text-[#000000] dark:text-[#ffffff] font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem]">
+            © BEST DESIGNERS. BUILT WITH RIGOUR.
+        </div>
+<div class="flex gap-8">
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] transition-all duration-250" href="#">INSTAGRAM</a>
+<a class="font-['Manrope'] uppercase tracking-[0.05em] text-[0.6875rem] font-medium text-[#1a1c1c] dark:text-[#e2e2e2] opacity-70 hover:opacity-100 hover:text-[#000000] transition-all duration-250" href="#">ARE.NA</a>
+</div>
+</footer>
+</body></html>
+
+<!-- Contact - Define the Rigour -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-highest": "#e2e2e2",
+              "surface-variant": "#e2e2e2",
+              "error": "#ba1a1a",
+              "outline-variant": "#c6c6c6",
+              "tertiary": "#3b3b3b",
+              "surface-container-low": "#f3f3f4",
+              "on-tertiary": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "primary-container": "#3b3b3b",
+              "on-surface-variant": "#474747",
+              "on-secondary": "#ffffff",
+              "primary": "#000000",
+              "inverse-primary": "#c6c6c6",
+              "primary-fixed-dim": "#474747",
+              "on-background": "#1a1c1c",
+              "secondary": "#5f5e5e",
+              "on-secondary-container": "#1c1b1b",
+              "tertiary-container": "#747474",
+              "surface": "#f9f9f9",
+              "on-surface": "#1a1c1c",
+              "on-error-container": "#410002",
+              "on-primary": "#e2e2e2",
+              "surface-bright": "#f9f9f9",
+              "on-tertiary-fixed": "#ffffff",
+              "on-primary-container": "#ffffff",
+              "secondary-fixed-dim": "#adabaa",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "surface-container": "#eeeeee",
+              "secondary-fixed": "#c8c6c5",
+              "outline": "#777777",
+              "surface-container-lowest": "#ffffff",
+              "error-container": "#ffdad6",
+              "background": "#f9f9f9",
+              "primary-fixed": "#5e5e5e",
+              "surface-container-high": "#e8e8e8",
+              "surface-dim": "#dadada",
+              "inverse-surface": "#2f3131",
+              "tertiary-fixed": "#5e5e5e",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-error": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "on-secondary-fixed": "#1c1b1b",
+              "on-primary-fixed": "#ffffff",
+              "inverse-on-surface": "#f0f1f1",
+              "tertiary-fixed-dim": "#474747",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "on-tertiary-container": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        ::selection {
+            background: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="bg-[#f9f9f9] dark:bg-neutral-900 flex justify-between items-center w-full px-12 py-8 max-w-[1920px] mx-auto sticky top-0 z-50">
+<div class="text-2xl font-black tracking-tighter text-black dark:text-white font-headline">SPECIMEN</div>
+<div class="hidden md:flex gap-8">
+<a class="font-['Manrope'] font-bold tracking-tighter uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Typeface</a>
+<a class="font-['Manrope'] font-bold tracking-tighter uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Weights</a>
+<a class="font-['Manrope'] font-bold tracking-tighter uppercase text-sm text-black dark:text-white border-b-2 border-black dark:border-white pb-1 transition-colors duration-200" href="#">Specimen</a>
+<a class="font-['Manrope'] font-bold tracking-tighter uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">About</a>
+</div>
+<button class="font-['Manrope'] font-bold tracking-tighter uppercase text-sm text-black dark:text-white hover:opacity-70 transition-opacity">Licensing</button>
+</nav>
+<main>
+<!-- Section 1: Hero Header -->
+<section class="px-12 pt-24 pb-48 border-none">
+<div class="grid grid-cols-12 gap-4 items-end">
+<div class="col-span-12 md:col-span-2">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline">EDITION 01</span>
+</div>
+<div class="col-span-12 md:col-span-8">
+<h1 class="font-headline font-black text-[12rem] md:text-[20rem] leading-[0.8] tracking-tighter text-primary -ml-4 md:-ml-12 mb-12">M</h1>
+<div class="max-w-2xl">
+<p class="font-label text-[0.75rem] uppercase tracking-[0.2em] mb-4">PRINTED SPECIMEN 01</p>
+<h2 class="font-headline font-bold text-6xl md:text-8xl tracking-tighter uppercase leading-none text-primary">MELBOURNE MONOLITH</h2>
+</div>
+</div>
+<div class="col-span-12 md:col-span-2 flex flex-col items-end">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline mb-4">EST. 2024</span>
+<div class="h-24 w-px bg-primary opacity-20"></div>
+</div>
+</div>
+</section>
+<!-- Section 2: The Printed Spread -->
+<section class="bg-surface-container-low py-24 px-12">
+<div class="max-w-[1920px] mx-auto">
+<div class="aspect-[21/9] w-full overflow-hidden relative">
+<img alt="Architectural typeface specimen booklet open" class="w-full h-full object-cover grayscale contrast-125" data-alt="Black and white top-down view of an open architectural book" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBe4WkJCQU6a5Tg4fFdiaonwtAGV3Lu75OmUpuyZXW5Q8X4w-6Tt38uStRHkDhl8v9booyUHw1mLAURpSJ6ZNdKdpbY5IFKJUpieBc3oLf8wejTIvbpH1Rorum_fPtHo2Bw06zA76wsakIiX2jBRtW1rNy-rZkTlxfjDVxAo5lwlEL-usz7_8d3Um1i6aE695jA8iHuheNfQVB2wJnlOO0mXNbYihZAud7dsIg32eoum4nv9oG-7ZeYdyHqt9bOyV1IxmDQou-hMLz_"/>
+<div class="absolute inset-0 bg-primary/5 pointer-events-none"></div>
+</div>
+<div class="grid grid-cols-12 mt-12 gap-8">
+<div class="col-span-12 md:col-span-4">
+<h3 class="font-headline font-bold text-2xl uppercase tracking-tighter">THE PHYSICAL MANIFESTO</h3>
+</div>
+<div class="col-span-12 md:col-span-8">
+<p class="font-body text-xl leading-relaxed text-on-surface max-w-2xl">
+                            Melbourne Monolith is more than a typeface; it is a structural observation. This specimen captures the brutalist rigour of the foundry's philosophy, translated onto 180gsm uncoated architectural paper. Every stroke is designed to command the page with the weight of concrete.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Macro Details -->
+<section class="py-48 px-12">
+<div class="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-1">
+<div class="group relative aspect-square bg-surface-container-high overflow-hidden">
+<img alt="Macro shot of typography texture" class="w-full h-full object-cover grayscale contrast-150 brightness-75 transition-transform duration-700 group-hover:scale-105" data-alt="Close up of black ink on textured paper grain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU1Xi4NWaplWP5vJkd82UynOe2cf-gELOdCMsoXcpXkY__Jg36SsUuHb2K_TZpo7ghpexvBebdPvaoNcWKrcuVgkU_95ghIcnoorj8gjOUsO5X1jDxFK2xRZh222fSn_P5HW7XXk2FDKrTvFJeMGklYxYySOjB9ZLJ_0oFzQD_byVpIZtO3Bpp6JxVRT-B6lVBrBMzxg7FIevg6TpDrRRlF001vxjdAlU-ZF_29d4xDsXqzGZKaRYJNfv4j6_Kczyu2HtBvS-PQ5te"/>
+<div class="absolute bottom-6 left-6">
+<span class="font-label text-[0.65rem] text-white uppercase tracking-widest bg-black px-2 py-1">MACRO 01: INK TRAPS</span>
+</div>
+</div>
+<div class="group relative aspect-square bg-surface-container-high overflow-hidden">
+<img alt="Macro shot of paper grain" class="w-full h-full object-cover grayscale contrast-125 brightness-90 transition-transform duration-700 group-hover:scale-105" data-alt="Abstract macro texture of rough architectural paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs4BicKnkSSJNOxAagbNTISqr7_NryyTDt9c2o-EBkY7IUjRuAzZ9NxaqeMUKPQSzZ_6XlXTtJ0BSmvqMkybxBNGJ1T-0Qdh9vUggaIKNrzGoeL_YJFPsYCKjzJ8pdDTzGFJXJwvpGRoSe1POQS1lLlzrNgFXgD1amkRAuaQtGcA61v9YXsXVMy45zC9aic0kO8M1aGMzybIOSqn5R07dMs7OBDotswK_CnLfvPQMSr8PXa2Q7VGWHgjKHkHKMJUSJbJJNc-NkLFee"/>
+<div class="absolute bottom-6 left-6">
+<span class="font-label text-[0.65rem] text-white uppercase tracking-widest bg-black px-2 py-1">MACRO 02: 180GSM TEXTURE</span>
+</div>
+</div>
+<div class="group relative aspect-square bg-surface-container-high overflow-hidden">
+<img alt="Close up of letter spacing" class="w-full h-full object-cover grayscale contrast-150 brightness-75 transition-transform duration-700 group-hover:scale-105" data-alt="Tight zoom on vertical serif and kerning space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTlXzxTSFnW1oYTb8KEW3BB7CZBiWSfUttf_wPyNRGKl4O2qZ2tBkTAXtdBVb3kJUdfyjTidWGhInSgLQIw8-aeB9fakKjyTOk8E5rNx4RXLrzGDUccSW1NEoOra3o6V7Nlp_GQp4drT9TGL4QSeqtKgG3W0MYRo5xnZ8CIp4N9ZJULS_BGuVcqI1tbcUjo88u0cS71j3-ZA4z4RaLOjbHkgF4j8BtX4Q_6wbVugdA-zS782MYTlI8ciyxboM2IvOEW-kH6hkWfQvW"/>
+<div class="absolute bottom-6 left-6">
+<span class="font-label text-[0.65rem] text-white uppercase tracking-widest bg-black px-2 py-1">MACRO 03: KERNING RIGOUR</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: The Grid & Skeleton -->
+<section class="bg-black text-on-primary py-48 px-12">
+<div class="max-w-[1920px] mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start mb-24 gap-12">
+<h2 class="font-headline font-black text-7xl md:text-9xl tracking-tighter leading-none max-w-xl">SKELETON &amp; GEOMETRY.</h2>
+<div class="max-w-md">
+<p class="font-body text-lg opacity-80 leading-relaxed">
+                            The construction follows a strict 12x12 architectural grid. Each glyph is carved out of a solid block, ensuring mathematical consistency across all weights while maintaining the brutalist aesthetic of the Melbourne school.
+                        </p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div class="border-l border-white/20 pl-8">
+<img alt="Grid diagram of typeface" class="w-full h-auto grayscale invert opacity-90" data-alt="White vector technical drawing of letter construction on black background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyj5VBxRo_TzpodPLrWLRyHagrRbDHbrb0liHUgnq3snLiELBZveM6hWyUtjlF1Sv-g5tlOS2YUGKvZwUT3-tkuZnBfNvJtVAm5khlmlpLWrQtMvsAsXpLWq9SpBGPV0DKMz2fhXDBN_uPpJxFXzKxzaMscpiPIxYVTQ3XctagekHlkktWIqLGjH4k9Fho0a7-i9lzHrN5WmIQjeJQg99hA2OKW04xDdWvy73knxL6ivZX1gDDr37yYeB0YRKvy4etT6ViIEbqyOnp"/>
+</div>
+<div class="space-y-12">
+<div class="border-b border-white/10 pb-8">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-4">PRINCIPLE 01</span>
+<h4 class="font-headline font-bold text-3xl uppercase tracking-tighter">UNYIELDING VERTICALITY</h4>
+<p class="font-body mt-4 opacity-60">Vertical strokes maintain a constant thickness to evoke structural pillars.</p>
+</div>
+<div class="border-b border-white/10 pb-8">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-4">PRINCIPLE 02</span>
+<h4 class="font-headline font-bold text-3xl uppercase tracking-tighter">GEOMETRIC TENSION</h4>
+<p class="font-body mt-4 opacity-60">Curves are derived from exact radii found in modern Melbourne civic architecture.</p>
+</div>
+<div class="border-b border-white/10 pb-8">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-4">PRINCIPLE 03</span>
+<h4 class="font-headline font-bold text-3xl uppercase tracking-tighter">SPATIAL RIGOUR</h4>
+<p class="font-body mt-4 opacity-60">Whitespace within letters is treated with as much priority as the ink itself.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Technical Specifications -->
+<section class="py-48 px-12 bg-surface">
+<div class="max-w-[1920px] mx-auto grid grid-cols-12 gap-12">
+<div class="col-span-12 md:col-span-4">
+<h2 class="font-headline font-black text-5xl uppercase tracking-tighter sticky top-32">TECH SPEC.</h2>
+</div>
+<div class="col-span-12 md:col-span-8">
+<div class="space-y-px bg-outline-variant/20">
+<div class="grid grid-cols-2 py-8 bg-surface border-b border-primary/10">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline">WEIGHTS</span>
+<span class="font-headline font-bold uppercase tracking-tighter">09 (EL TO BLACK)</span>
+</div>
+<div class="grid grid-cols-2 py-8 bg-surface border-b border-primary/10">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline">GLYPH COUNT</span>
+<span class="font-headline font-bold uppercase tracking-tighter">642 PER WEIGHT</span>
+</div>
+<div class="grid grid-cols-2 py-8 bg-surface border-b border-primary/10">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline">LANGUAGES</span>
+<span class="font-headline font-bold uppercase tracking-tighter">LATIN EXTENDED-A</span>
+</div>
+<div class="grid grid-cols-2 py-8 bg-surface border-b border-primary/10">
+<span class="font-label text-[0.75rem] uppercase tracking-widest text-outline">FORMATS</span>
+<span class="font-headline font-bold uppercase tracking-tighter">OTF, WOFF2, VARIABLE</span>
+</div>
+</div>
+<div class="mt-24 space-y-4">
+<div class="font-headline text-2xl font-black uppercase tracking-tighter opacity-10">Extra Light 100</div>
+<div class="font-headline text-3xl font-bold uppercase tracking-tighter opacity-20">Light 200</div>
+<div class="font-headline text-4xl font-bold uppercase tracking-tighter opacity-40">Regular 400</div>
+<div class="font-headline text-5xl font-bold uppercase tracking-tighter opacity-60">Medium 500</div>
+<div class="font-headline text-6xl font-bold uppercase tracking-tighter opacity-80">Semi Bold 600</div>
+<div class="font-headline text-7xl font-bold uppercase tracking-tighter opacity-90">Bold 700</div>
+<div class="font-headline text-[5rem] font-black uppercase tracking-tighter text-primary">Black 900</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Booklet Layouts -->
+<section class="py-24 bg-surface-container-low">
+<div class="px-12 mb-12">
+<h2 class="font-headline font-bold text-4xl uppercase tracking-tighter">LAYOUT DYNAMICS</h2>
+</div>
+<div class="flex overflow-x-auto pb-12 gap-8 px-12 snap-x">
+<div class="min-w-[600px] aspect-[16/10] bg-white snap-center p-12 flex flex-col justify-between shadow-sm">
+<h3 class="font-headline font-black text-9xl tracking-tighter leading-none">HEADING<br/>LEVEL 01</h3>
+<p class="font-label text-[0.65rem] uppercase tracking-widest text-outline self-end">SPREAD 01: DISPLAY IMPACT</p>
+</div>
+<div class="min-w-[600px] aspect-[16/10] bg-white snap-center p-12 grid grid-cols-2 gap-12 shadow-sm">
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-2xl border-b-2 border-primary pb-2">CHAPTER 01</h4>
+<p class="font-body text-sm leading-relaxed">The history of architectural type is rooted in the industrial revolution. Melbourne Monolith continues this legacy by integrating modern rigour with classical proportions.</p>
+</div>
+<div class="bg-primary h-full"></div>
+<p class="font-label text-[0.65rem] uppercase tracking-widest text-outline col-span-2 text-right">SPREAD 02: TEXT DENSITY</p>
+</div>
+<div class="min-w-[600px] aspect-[16/10] bg-white snap-center p-12 shadow-sm">
+<div class="grid grid-cols-12 h-full">
+<div class="col-span-8 border-r border-primary/10 pr-8">
+<div class="space-y-2 mb-12">
+<div class="font-headline font-black text-6xl italic">AB-01</div>
+<div class="font-headline font-black text-6xl">AB-02</div>
+<div class="font-headline font-black text-6xl italic">AB-03</div>
+</div>
+</div>
+<div class="col-span-4 pl-8 flex flex-col justify-end">
+<p class="font-body text-[0.75rem] uppercase leading-tight font-bold">Variable axis testing for dynamic architectural environments.</p>
+</div>
+</div>
+</div>
+<div class="min-w-[600px] aspect-[16/10] bg-white snap-center p-12 flex items-center justify-center shadow-sm">
+<div class="font-headline font-black text-[20rem] opacity-5">Æ</div>
+<p class="absolute font-label text-[0.65rem] uppercase tracking-widest text-outline bottom-12 right-12">SPREAD 04: GLYPH FOCUS</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-12 py-24 flex flex-col md:flex-row justify-between items-end bg-[#f3f3f4] dark:bg-neutral-800 border-none">
+<div class="flex flex-col gap-8 max-w-xl mb-12 md:mb-0">
+<div class="text-lg font-bold text-black dark:text-white font-headline">ARCHITECTURALISM FOUNDRY</div>
+<p class="font-['Inter'] text-[0.75rem] uppercase tracking-widest leading-relaxed text-neutral-600 dark:text-neutral-400">
+                Acknowledgment of Country: We acknowledge the Traditional Custodians of the land on which we work and live, and pay our respects to Elders past, present and emerging.
+            </p>
+<p class="font-['Inter'] text-[0.75rem] uppercase tracking-widest leading-relaxed text-neutral-600 dark:text-neutral-400">
+                © 2024 Architecturalism Foundry. All rights reserved.
+            </p>
+</div>
+<div class="flex flex-col md:flex-row gap-6 md:gap-12">
+<a class="font-['Inter'] text-[0.75rem] uppercase tracking-widest leading-relaxed text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Acknowledgment of Country</a>
+<a class="font-['Inter'] text-[0.75rem] uppercase tracking-widest leading-relaxed text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Privacy</a>
+<a class="font-['Inter'] text-[0.75rem] uppercase tracking-widest leading-relaxed text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Terms</a>
+</div>
+</footer>
+</body></html>
+
+<!-- Project - Printed Specimen: Melbourne Monolith -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Melbourne Monolith // Kinetic Specimen</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#000000",
+                "on-tertiary-fixed": "#ffffff",
+                "error-container": "#ffdad6",
+                "surface-container": "#eeeeee",
+                "surface-container-high": "#e8e8e8",
+                "surface-variant": "#e2e2e2",
+                "surface": "#f9f9f9",
+                "primary-fixed-dim": "#474747",
+                "outline": "#777777",
+                "tertiary": "#3b3b3b",
+                "on-surface-variant": "#474747",
+                "on-tertiary": "#e2e2e2",
+                "on-primary-fixed": "#ffffff",
+                "surface-container-lowest": "#ffffff",
+                "inverse-surface": "#2f3131",
+                "on-tertiary-container": "#ffffff",
+                "secondary": "#5f5e5e",
+                "on-primary-fixed-variant": "#e2e2e2",
+                "surface-container-highest": "#e2e2e2",
+                "surface-tint": "#5e5e5e",
+                "surface-bright": "#f9f9f9",
+                "tertiary-container": "#747474",
+                "primary-fixed": "#5e5e5e",
+                "on-primary-container": "#ffffff",
+                "background": "#f9f9f9",
+                "tertiary-fixed-dim": "#474747",
+                "on-error": "#ffffff",
+                "tertiary-fixed": "#5e5e5e",
+                "secondary-fixed-dim": "#adabaa",
+                "primary-container": "#3b3b3b",
+                "on-background": "#1a1c1c",
+                "on-secondary-container": "#1c1b1b",
+                "on-secondary-fixed-variant": "#3c3b3b",
+                "inverse-on-surface": "#f0f1f1",
+                "outline-variant": "#c6c6c6",
+                "on-secondary-fixed": "#1c1b1b",
+                "on-surface": "#1a1c1c",
+                "surface-container-low": "#f3f3f4",
+                "surface-dim": "#dadada",
+                "inverse-primary": "#c6c6c6",
+                "on-error-container": "#410002",
+                "secondary-fixed": "#c8c6c5",
+                "error": "#ba1a1a",
+                "secondary-container": "#d6d4d3",
+                "on-primary": "#e2e2e2",
+                "on-tertiary-fixed-variant": "#e2e2e2",
+                "on-secondary": "#ffffff"
+              },
+              fontFamily: {
+                "headline": ["Manrope"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        body { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="flex justify-between items-center w-full px-8 py-6 max-w-[100vw] bg-[#f9f9f9] dark:bg-neutral-900 fixed top-0 z-50">
+<div class="text-xl font-bold tracking-tighter text-black dark:text-white">MELBOURNE MONOLITH</div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="font-['Manrope'] uppercase tracking-[0.1em] text-[0.75rem] font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Typeface</a>
+<a class="font-['Manrope'] uppercase tracking-[0.1em] text-[0.75rem] font-medium text-black dark:text-white border-b-2 border-black dark:border-white pb-1 transition-colors duration-200" href="#">Motion</a>
+<a class="font-['Manrope'] uppercase tracking-[0.1em] text-[0.75rem] font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Process</a>
+<a class="font-['Manrope'] uppercase tracking-[0.1em] text-[0.75rem] font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Licensing</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 font-['Manrope'] uppercase tracking-[0.1em] text-[0.7rem] font-bold hover:opacity-80 transition-opacity">
+            Download Specimen
+        </button>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="w-full h-screen relative overflow-hidden bg-primary flex items-center justify-center">
+<div class="absolute inset-0 z-0 opacity-40">
+<img alt="Kinetic motion study" class="w-full h-full object-cover" data-alt="Massive black and white structural letter M vibrating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcLyNPEBzayi6dC7WAuzwm8PdOWZr8Qa3S_5H0gneExc6Ue1iKe0EdNnGe0I4_ZJagJLzBzyd_ULMs8kqeAQ_lGKdKlNMVsKftJc2LoyUunanzv_7T8QfdR7F5tGY7FrHTxg_p5r98ckWnkcIz_-6xZRg2A4LxIl6ZOP1py_p6kAvVn0sndWuLhLD-DsGKH1DCQAorSgexVXHbUkkWyH6cUW11KOXexXKjD7AOZhoqUmHGXEj9EyYuJ3h9nuMg2bq2t9nwblJWRqfX"/>
+</div>
+<div class="relative z-10 text-center px-8">
+<h1 class="font-headline text-[12vw] font-extrabold leading-[0.85] tracking-[-0.06em] text-white">
+                    MELBOURNE<br/>MONOLITH
+                </h1>
+<p class="font-headline text-white mt-8 uppercase tracking-[0.4em] text-sm font-medium opacity-80">
+                    // Kinetic Specimen
+                </p>
+</div>
+</section>
+<!-- The Motion Manifesto -->
+<section class="px-8 py-32 bg-surface">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-2">
+<span class="font-label uppercase tracking-widest text-[0.7rem] font-bold opacity-40">Manifesto</span>
+</div>
+<div class="md:col-span-8">
+<h2 class="font-headline text-5xl md:text-7xl font-bold leading-tight tracking-tight text-primary mb-12">
+                        THE RIGOUR OF MOTION.
+                    </h2>
+<p class="font-body text-2xl md:text-3xl leading-relaxed text-on-surface-variant font-light max-w-4xl">
+                        Melbourne Monolith is not a static construct. Its geometry demands displacement. The verticality of its stems informs a strictly architectural movement—unyielding, heavy, and mathematically precise. Our motion studies explore the tension between digital fluidity and the brutalist weight of letterforms.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Kinetic Studies (Asymmetric Grid) -->
+<section class="px-8 py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-y-24 gap-x-8 items-end">
+<!-- Study 01 -->
+<div class="md:col-span-7">
+<div class="aspect-[16/9] bg-primary relative overflow-hidden group cursor-pointer">
+<img alt="Vertical movement study" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="High contrast vertical black lines sliding up and down" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUc0vWGMfw_EnRxAX809a57IIMqTVJT05WYuKC8BTZ4KAzU-nxOD1MxVO89yQXJUL3cBLNr661CSYfrTekG7RvQqxSAhF9lFHP9-d20YSAEnkRrIR7gBgVi-ay1ymGY_1HDpstuof24EnZfYSMSKjJxzmCZnIYxYmJrDKj3AMtSLx4-Zw10cG_J_aezeiGjQbS7btOem54flKgHlP-40EWACeG8edC2ERj-otY6hcb31eqjZLvDXV8jwSNvrEPGGSVVN7j9axTXPGe"/>
+<div class="absolute bottom-6 left-6 text-white">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-1">Study 01</span>
+<span class="font-headline text-2xl font-bold tracking-tight">UNYIELDING VERTICALITY</span>
+</div>
+</div>
+</div>
+<!-- Study 02 -->
+<div class="md:col-span-4 md:col-start-9">
+<div class="aspect-square bg-white relative overflow-hidden group cursor-pointer">
+<img alt="Geometric tension study" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700" data-alt="Rotating black spheres forming the shape of an O" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQSbUtrPGawLicxoFGi-vlp12op8UjtH8wDKYEpdhFQITXE6y_caUGbi6qDYOEX2_ymz74WjefA4z_vSpPyl5-K81qfNYjDik0QH3SpoVfnQoOpUnRLJDG1BISEVrBjomYTSjuJoj-1RUvB2fEcI-hokz9CaI2MoHcUI9-TwJS5IGT3SnEvCfOtlo_6hdSf4FTnOImhP-0FyiuQHeqP0R5nV2ksdAKXsQM4DdfbDHkzoWQocJ3F4lOhBFSvaETqeIOh-JqVKfUmzTs"/>
+<div class="absolute bottom-6 left-6 text-black">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-1 text-neutral-500">Study 02</span>
+<span class="font-headline text-2xl font-bold tracking-tight">GEOMETRIC TENSION</span>
+</div>
+</div>
+</div>
+<!-- Study 03 -->
+<div class="md:col-span-5">
+<div class="aspect-square bg-surface-container-highest relative overflow-hidden group cursor-pointer">
+<div class="absolute inset-0 flex items-center justify-center p-12">
+<h3 class="text-[20rem] font-headline font-extrabold text-primary opacity-10 group-hover:scale-110 transition-transform duration-700">S</h3>
+</div>
+<img alt="Spatial rigour study" class="w-full h-full object-cover mix-blend-multiply opacity-40" data-alt="Deep perspective grid with monolithic blocks moving through space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-fQKHEv-MdeFioJwEVWeLvH3-kSoG2ZGXUsqNADXA8xpXdwYuprHvn-evdVWCVHSuuKOmtUZS1JWASrUyb0uTq3p3mzpXrlnf2cdoTFW-AdaRsIljW6arcM6MmyxTZIOYRDTWymZQs9guBfaohqTMCJTlcyP69UjViwbc4wsKPGtVA82pSbZbjDozQoeA34RtBSwE1e1KCK8JsHban2RY7uW5LDPpWWf-1XuFBhjVjZq6epVBnndA-Yb53098SgbT1tyBu99IWig0"/>
+<div class="absolute bottom-6 left-6 text-primary">
+<span class="font-label text-[0.65rem] uppercase tracking-widest block mb-1 text-neutral-500">Study 03</span>
+<span class="font-headline text-2xl font-bold tracking-tight">SPATIAL RIGOUR</span>
+</div>
+</div>
+</div>
+<!-- Study 04 (Ghost Content) -->
+<div class="md:col-span-6 md:col-start-7 pb-12">
+<p class="font-body text-lg leading-relaxed text-secondary max-w-md">
+                            Each movement principle is derived from the inherent grid of the typeface. We utilize cubic easing to mimic physical inertia, ensuring every 'frame' of the Monolith feels earned.
+                        </p>
+<div class="mt-8 h-[2px] w-24 bg-primary"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Motion Specs -->
+<section class="px-8 py-32 bg-white">
+<div class="max-w-7xl mx-auto border-t border-surface-variant pt-12">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div>
+<span class="font-label uppercase tracking-widest text-[0.65rem] font-bold text-neutral-400 block mb-4">Frame Rate</span>
+<span class="font-headline text-4xl font-bold text-primary">24FPS</span>
+<p class="font-body text-xs mt-2 text-neutral-500 uppercase tracking-tighter">Cinematic temporal cadence</p>
+</div>
+<div>
+<span class="font-label uppercase tracking-widest text-[0.65rem] font-bold text-neutral-400 block mb-4">Easing</span>
+<span class="font-headline text-4xl font-bold text-primary">CUBIC</span>
+<p class="font-body text-xs mt-2 text-neutral-500 uppercase tracking-tighter">Physical inertia simulation</p>
+</div>
+<div>
+<span class="font-label uppercase tracking-widest text-[0.65rem] font-bold text-neutral-400 block mb-4">Resolution</span>
+<span class="font-headline text-4xl font-bold text-primary">4K+</span>
+<p class="font-body text-xs mt-2 text-neutral-500 uppercase tracking-tighter">Architectural clarity</p>
+</div>
+<div>
+<span class="font-label uppercase tracking-widest text-[0.65rem] font-bold text-neutral-400 block mb-4">Analogue</span>
+<span class="font-headline text-4xl font-bold text-primary">16MM</span>
+<p class="font-body text-xs mt-2 text-neutral-500 uppercase tracking-tighter">Emulated grain structure</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Full Alphabet in Motion (Marquee) -->
+<section class="py-24 bg-surface overflow-hidden border-y border-surface-variant">
+<div class="flex gap-24 whitespace-nowrap animate-none">
+<div class="flex items-center gap-24">
+<span class="font-headline text-9xl font-extrabold text-primary outline-text opacity-10" style="-webkit-text-stroke: 1px black; color: transparent;">A</span>
+<span class="font-headline text-9xl font-extrabold text-primary">B</span>
+<span class="font-headline text-9xl font-extrabold text-primary outline-text opacity-10" style="-webkit-text-stroke: 1px black; color: transparent;">C</span>
+<span class="font-headline text-9xl font-extrabold text-primary">D</span>
+<span class="font-headline text-9xl font-extrabold text-primary outline-text opacity-10" style="-webkit-text-stroke: 1px black; color: transparent;">E</span>
+<span class="font-headline text-9xl font-extrabold text-primary">F</span>
+<span class="font-headline text-9xl font-extrabold text-primary outline-text opacity-10" style="-webkit-text-stroke: 1px black; color: transparent;">G</span>
+<span class="font-headline text-9xl font-extrabold text-primary">H</span>
+<span class="font-headline text-9xl font-extrabold text-primary outline-text opacity-10" style="-webkit-text-stroke: 1px black; color: transparent;">I</span>
+<span class="font-headline text-9xl font-extrabold text-primary">J</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="flex flex-col gap-12 w-full px-8 py-24 mt-24 max-w-[100vw] bg-[#f9f9f9] dark:bg-neutral-900">
+<div class="w-full h-[1px] bg-[#f3f3f4] dark:bg-neutral-800"></div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-6">
+<div class="text-lg font-bold text-black dark:text-white mb-6 uppercase tracking-widest">MELBOURNE MONOLITH</div>
+<p class="font-['Inter'] leading-relaxed text-[0.875rem] text-neutral-600 dark:text-neutral-400 max-w-md">
+                    © 2024 Melbourne Monolith. We acknowledge the Traditional Custodians of the land on which we work and live, the Wurundjeri Woi-wurrung and Bunurong Boon Wurrung peoples and pay our respects to Elders past, present and emerging.
+                </p>
+</div>
+<div class="md:col-span-6 flex flex-col md:items-end gap-4">
+<div class="flex gap-8">
+<a class="font-['Inter'] leading-relaxed text-[0.875rem] text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all underline decoration-2 underline-offset-4" href="#">Instagram</a>
+<a class="font-['Inter'] leading-relaxed text-[0.875rem] text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">Vimeo</a>
+<a class="font-['Inter'] leading-relaxed text-[0.875rem] text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">Contact</a>
+</div>
+<div class="mt-8 text-neutral-300 dark:text-neutral-700 font-headline font-black text-6xl">MM/024</div>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Project - Kinetic Specimen: Melbourne Monolith -->
+<!DOCTYPE html>
+
+<html class="light" lang="en-AU"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Project - Physical Specimen: Melbourne Monolith (Upsampled)</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-high": "#e8e8e8",
+              "on-background": "#1a1c1c",
+              "surface-dim": "#dadada",
+              "surface-bright": "#f9f9f9",
+              "surface-container-highest": "#e2e2e2",
+              "on-error-container": "#410002",
+              "outline": "#777777",
+              "inverse-surface": "#2f3131",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary-fixed-variant": "#3c3b3b",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "on-tertiary": "#e2e2e2",
+              "on-secondary-container": "#1c1b1b",
+              "inverse-primary": "#c6c6c6",
+              "secondary-fixed-dim": "#adabaa",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "on-primary": "#e2e2e2",
+              "tertiary-container": "#747474",
+              "surface": "#f9f9f9",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#474747",
+              "tertiary-fixed": "#5e5e5e",
+              "outline-variant": "#c6c6c6",
+              "primary-fixed": "#5e5e5e",
+              "surface-tint": "#5e5e5e",
+              "secondary-fixed": "#c8c6c5",
+              "on-surface": "#1a1c1c",
+              "on-tertiary-fixed": "#ffffff",
+              "on-tertiary-container": "#ffffff",
+              "on-secondary": "#ffffff",
+              "surface-variant": "#e2e2e2",
+              "on-secondary-fixed": "#1c1b1b",
+              "background": "#f9f9f9",
+              "secondary": "#5f5e5e",
+              "primary": "#000000",
+              "surface-container": "#eeeeee",
+              "secondary-container": "#d6d4d3",
+              "on-primary-container": "#ffffff",
+              "primary-fixed-dim": "#474747",
+              "on-primary-fixed": "#ffffff",
+              "primary-container": "#3b3b3b",
+              "surface-container-low": "#f3f3f4",
+              "tertiary": "#3b3b3b",
+              "on-error": "#ffffff",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#474747",
+              "inverse-on-surface": "#f0f1f1"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+            font-size: 20px;
+        }
+        ::-webkit-scrollbar { width: 4px; height: 4px; }
+        ::-webkit-scrollbar-track { background: #f9f9f9; }
+        ::-webkit-scrollbar-thumb { background: #000000; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 z-50 flex justify-between items-center w-full px-12 py-8 max-w-[100vw] bg-[#f9f9f9] dark:bg-neutral-900 no-border tonal-shift bg-[#f3f3f4] dark:bg-neutral-800 flat no shadows">
+<div class="text-xl font-black tracking-tighter text-black dark:text-white uppercase font-headline">
+            MELBOURNE MONOLITH
+        </div>
+<div class="hidden md:flex gap-12">
+<a class="font-headline font-bold tracking-[-0.04em] uppercase text-[0.75rem] text-black dark:text-white border-b-2 border-black dark:border-white pb-1 transition-colors duration-200" href="#">Portfolio</a>
+<a class="font-headline font-bold tracking-[-0.04em] uppercase text-[0.75rem] text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Gallery</a>
+<a class="font-headline font-bold tracking-[-0.04em] uppercase text-[0.75rem] text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Research</a>
+<a class="font-headline font-bold tracking-[-0.04em] uppercase text-[0.75rem] text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="text-black dark:text-white">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</nav>
+<main class="pt-32 pb-12">
+<!-- Hero Header -->
+<header class="px-12 mb-12">
+<div class="grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-8">
+<p class="font-label text-[0.75rem] uppercase tracking-[0.1em] mb-4 text-outline">Project Archive 2024</p>
+<h1 class="font-headline text-[3.5rem] font-extrabold tracking-[-0.04em] leading-[1.1] mb-8">
+                        Physical Specimen:<br/>Melbourne Monolith (Upsampled)
+                    </h1>
+</div>
+</div>
+</header>
+<!-- Interactive Carousel / Horizontal Slideshow -->
+<section class="mb-24 relative overflow-hidden">
+<div class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar cursor-grab active:cursor-grabbing pb-8">
+<!-- Slide 1: Full Page Specimen -->
+<div class="flex-none w-[85vw] md:w-[70vw] h-[819px] snap-center px-4">
+<div class="w-full h-full bg-surface-container-lowest flex items-center justify-center relative overflow-hidden">
+<img alt="Editorial book layout showing heavy black typography" class="absolute inset-0 w-full h-full object-cover grayscale opacity-90 transition-transform duration-700 hover:scale-105" data-alt="Editorial book layout showing heavy black typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGR9Ss9xR2jS5lBaTxevA4vbbJH3UUNJhSDmX2y4u_EIqu6ndWUgN1GA4G_MKFKIqnN5wud7P7q1Hr0bk14QGabZGO2Utw37wxNPwlSQXDU30IPBhMXH9c1efrB3MGdxqPUPTAUNzeI_zD2Zosl1ON6HsFMcCKRSGOtDUkZYnbyQ7QSbZ3uviZ0SEsly6bcP-l1m43i4_4MybfRTewOE1d3ds7rQ2YnRb0RGn0ZFT3aYrcXDF6LpgieuJJwWE0pHgEfq4TyHYAG3j7"/>
+<div class="absolute bottom-12 left-12 bg-primary px-4 py-2 text-on-primary font-label text-[0.7rem] uppercase tracking-widest">
+                            Spread 01 — The Monolith Frame
+                        </div>
+</div>
+</div>
+<!-- Slide 2: Macro Typographic Details -->
+<div class="flex-none w-[85vw] md:w-[70vw] h-[819px] snap-center px-4">
+<div class="w-full h-full bg-surface-container-high flex items-center justify-center relative overflow-hidden">
+<img alt="Close up of ink traps and typographic texture" class="absolute inset-0 w-full h-full object-cover grayscale brightness-90 transition-transform duration-700 hover:scale-105" data-alt="Close up of ink traps and typographic texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCi-jm4Pomnyv4t1tKZInU_FMAjAeJskQtn4CLWX332LkCq8-SC4NrEO4gYUdpu6e4bVpboWShOOGzIJv_UE-0fGJLjKdXAl0W4dGVLBhMeMPRp21bhnYpHSVxLfwgmblf3x83-sE04nxeb7uHLQiHqh5R3Gv-2NEGJjVUa2fpYcabDkphY78natqMYB5nYUEYhP7MrQwVzRcfCqibJ45SYTR_oXBk0okHqi6Jbje9o9sgqiqoNQtM-zBMWdsYALon7mqTsXGogqi3"/>
+<div class="absolute bottom-12 left-12 bg-primary px-4 py-2 text-on-primary font-label text-[0.7rem] uppercase tracking-widest">
+                            Spread 02 — Ink Trap Rigour
+                        </div>
+</div>
+</div>
+<!-- Slide 3: Editorial Layouts / Grid Systems -->
+<div class="flex-none w-[85vw] md:w-[70vw] h-[819px] snap-center px-4">
+<div class="w-full h-full bg-surface-container flex items-center justify-center relative overflow-hidden">
+<img alt="Open book showing asymmetrical typographic grid" class="absolute inset-0 w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" data-alt="Open book showing asymmetrical typographic grid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKLSCgAWLgTNmNcXaaa2lYveucSbAQKXwkjzkgf-fAYf7xLEVJLWQQGFQxRuTzjriGll_OFJTUOpJdHOJq0cUPcs8CK7Q4poR3szD93GIjr3SdGuHPh3vm4BMiNWnw_gVycMWPetCofTJiWgHIzGWL0OVvykWiJXbBynoszHIlZIpLA6qYGlDC1kVdL3nTIVODUVbTneNQ3Hf9394oiL76mNqDrIXtMr2EthqRu6iw_1BOIWMvfunhbosCr9tCiJIKcfMJ_1BwXkIr"/>
+<div class="absolute bottom-12 left-12 bg-primary px-4 py-2 text-on-primary font-label text-[0.7rem] uppercase tracking-widest">
+                            Spread 03 — Grid Asymmetry
+                        </div>
+</div>
+</div>
+<!-- Slide 4: Full Page Character Set -->
+<div class="flex-none w-[85vw] md:w-[70vw] h-[819px] snap-center px-4">
+<div class="w-full h-full bg-surface-container-highest flex items-center justify-center relative overflow-hidden">
+<img alt="Graphic black and white character specimen" class="absolute inset-0 w-full h-full object-cover grayscale contrast-125 transition-transform duration-700 hover:scale-105" data-alt="Graphic black and white character specimen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8EAjKUOkgBOpySjjVjlzv6aWVPJmwEbnRfnzyaubniItyjUlxN2o7WZziXaP3NiLdqNWPRTnnIsFZSMN903Yy7N67VqqK2QYnttRSaBikFCa7MoIaFFT01Y2nTZOGxrcPA7IifEodwXvfJJ3OdO39usQjOhwa3Nl_yzTLT1ek45XIVxkN5UIAW0XPt1YlgZLtocDES9fjj6eV2lz7vHMeIEMXdffPdVE3odyDQfVth_RDUPumNEvYCZ55ngI52NRTBVymcI49VSqS"/>
+<div class="absolute bottom-12 left-12 bg-primary px-4 py-2 text-on-primary font-label text-[0.7rem] uppercase tracking-widest">
+                            Spread 04 — Character Rigour
+                        </div>
+</div>
+</div>
+</div>
+<!-- Custom Navigation Indicators -->
+<div class="px-12 flex items-center gap-4 mt-4">
+<span class="font-label text-[0.6rem] uppercase tracking-tighter">Swipe to navigate</span>
+<div class="h-[1px] bg-primary w-24"></div>
+<div class="flex gap-2">
+<div class="w-2 h-2 bg-primary"></div>
+<div class="w-2 h-2 bg-surface-dim"></div>
+<div class="w-2 h-2 bg-surface-dim"></div>
+<div class="w-2 h-2 bg-surface-dim"></div>
+</div>
+</div>
+</section>
+<!-- Project Details Grid -->
+<section class="px-12 grid grid-cols-12 gap-y-16 md:gap-x-12 mb-24">
+<!-- Humble Brief -->
+<div class="col-span-12 md:col-span-6 lg:col-span-5">
+<h2 class="font-headline text-[1.5rem] font-bold tracking-tighter uppercase mb-6">The Humble Brief</h2>
+<div class="space-y-6 text-on-surface leading-[1.6] text-lg font-light">
+<p>
+                        A rigorous exploration into the materiality of digital forms. The Melbourne Monolith typeface was upsampled and re-evaluated for analogue application, specifically investigating how ink absorption on high-grammage paper interacts with geometric precision.
+                    </p>
+<p>
+                        The specimen serves as a physical anchor for a digital-first identity. It is a monolith in the sense of its presence—unwavering, brutalist, yet deeply rooted in the editorial traditions of the Victorian design landscape.
+                    </p>
+</div>
+</div>
+<!-- Technical Specifications -->
+<div class="col-span-12 md:col-span-5 md:col-start-8 lg:col-span-4 lg:col-start-9">
+<div class="bg-surface-container-low p-12">
+<h3 class="font-headline text-[0.75rem] font-extrabold uppercase tracking-widest mb-8 border-b border-outline/10 pb-4">Technical Specifications</h3>
+<ul class="space-y-8 font-label text-[0.85rem] uppercase tracking-[0.05em]">
+<li class="flex justify-between items-end border-b border-outline/5 pb-2">
+<span class="text-outline">Paper Stock</span>
+<span class="font-bold">180gsm Uncoated</span>
+</li>
+<li class="flex justify-between items-end border-b border-outline/5 pb-2">
+<span class="text-outline">Binding Method</span>
+<span class="font-bold">Section Sewn</span>
+</li>
+<li class="flex justify-between items-end border-b border-outline/5 pb-2">
+<span class="text-outline">Ink Application</span>
+<span class="font-bold">Rich Black Offset</span>
+</li>
+<li class="flex justify-between items-end border-b border-outline/5 pb-2">
+<span class="text-outline">Project Year</span>
+<span class="font-bold">2024</span>
+</li>
+<li class="flex justify-between items-end border-b border-outline/5 pb-2">
+<span class="text-outline">Edition</span>
+<span class="font-bold">Limited 01/50</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Signature Editorial Card -->
+<section class="px-12 mb-32">
+<div class="w-full bg-surface-container-highest p-1 bg-primary">
+<div class="bg-surface p-12 md:p-24 flex flex-col md:flex-row gap-12 items-center">
+<div class="w-full md:w-1/2">
+<img alt="Studio shot of the printed specimen" class="w-full h-auto grayscale aspect-[3/4] object-cover" data-alt="Studio shot of the printed specimen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpDNr55bq_3Sb4IJkdJk6OPZltOkzQEwlI9tCL0vEnE77i9GzgBNSKUY53jZRiQK_Sf8I717ZYMbfp9Y0Ldb0zK4h9sRHB71JvRtz-iI5yadlSRDSlhum75nqUWgJ8r-K4T6mY3T1hDzD7SdlTQyxXKSyWD8RMy5iKsU_p0qYK01sDHC7Zg18K-S0gJTFxIP96lImLk8pH_-CXW6Qv-FQ4yJLLcXJHNHFcS69xk2nz1svQTAVUm9O_Z6qtWyEHW0B5ydJRFFUYUCTJ"/>
+</div>
+<div class="w-full md:w-1/2">
+<h4 class="font-headline text-[2rem] font-bold leading-tight mb-6">"Designing with the Monolith requires a certain kind of spatial rigour. It's about the tension between the black of the ink and the void of the page."</h4>
+<div class="h-1 w-24 bg-primary mb-6"></div>
+<p class="font-label text-[0.75rem] uppercase tracking-widest text-outline">Lead Typographer, 2024</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-12 py-24 flex flex-col md:flex-row justify-between items-start gap-12 bg-[#f3f3f4] dark:bg-neutral-900 full-width border-none tonal-shift via background-color bg-[#f3f3f4] flat no shadows">
+<div class="max-w-xl">
+<div class="text-lg font-bold text-black dark:text-white uppercase font-headline mb-4">Melbourne Monolith</div>
+<p class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400">
+                © 2024 Melbourne Monolith. We acknowledge the Traditional Owners of the land on which we work, the People of the Eastern Kulin Nations. We pay our respects to their Elders past, present and emerging.
+            </p>
+</div>
+<div class="flex flex-col md:flex-row gap-8 md:gap-16">
+<div class="flex flex-col gap-4">
+<span class="font-headline font-bold text-[0.65rem] uppercase tracking-widest text-black mb-2">Legal</span>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Privacy</a>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Terms</a>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Accessibility</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-headline font-bold text-[0.65rem] uppercase tracking-widest text-black mb-2">Social</span>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Instagram</a>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Are.na</a>
+<a class="font-['Inter'] text-[0.75rem] leading-relaxed tracking-wider uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out" href="#">Behance</a>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Project - Physical Specimen: Melbourne Monolith (Upsampled) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Signage &amp; Type — Melbourne Monolith</title>
+<!-- Google Fonts: Manrope & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed": "#5e5e5e",
+              "surface-container-high": "#e8e8e8",
+              "on-tertiary-fixed": "#ffffff",
+              "on-secondary": "#ffffff",
+              "inverse-surface": "#2f3131",
+              "on-error": "#ffffff",
+              "surface-container-highest": "#e2e2e2",
+              "secondary-container": "#d6d4d3",
+              "outline": "#777777",
+              "on-secondary-fixed": "#1c1b1b",
+              "inverse-primary": "#c6c6c6",
+              "on-primary": "#e2e2e2",
+              "surface-container": "#eeeeee",
+              "on-background": "#1a1c1c",
+              "on-primary-container": "#ffffff",
+              "tertiary-container": "#747474",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#c8c6c5",
+              "tertiary-fixed": "#5e5e5e",
+              "inverse-on-surface": "#f0f1f1",
+              "surface-container-low": "#f3f3f4",
+              "surface": "#f9f9f9",
+              "on-surface-variant": "#474747",
+              "on-secondary-container": "#1c1b1b",
+              "error": "#ba1a1a",
+              "on-error-container": "#410002",
+              "surface-dim": "#dadada",
+              "on-tertiary": "#e2e2e2",
+              "primary-container": "#3b3b3b",
+              "tertiary-fixed-dim": "#474747",
+              "surface-tint": "#5e5e5e",
+              "on-tertiary-container": "#ffffff",
+              "error-container": "#ffdad6",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "background": "#f9f9f9",
+              "tertiary": "#3b3b3b",
+              "on-surface": "#1a1c1c",
+              "primary-fixed-dim": "#474747",
+              "outline-variant": "#c6c6c6",
+              "on-primary-fixed": "#ffffff",
+              "secondary": "#5f5e5e",
+              "surface-variant": "#e2e2e2",
+              "surface-bright": "#f9f9f9",
+              "primary": "#000000",
+              "secondary-fixed-dim": "#adabaa",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "on-secondary-fixed-variant": "#3c3b3b"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body">
+<!-- TopNavBar -->
+<nav class="bg-[#f9f9f9] dark:bg-neutral-900 docked full-width top-0 z-50 transition-transform">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-[1440px] mx-auto">
+<div class="text-xl font-bold tracking-tighter text-black dark:text-white">
+                Signage &amp; Type
+            </div>
+<div class="hidden md:flex gap-12 items-center">
+<a class="font-['Manrope'] font-bold tracking-[-0.04em] uppercase text-sm text-black dark:text-white border-b-2 border-black dark:border-white pb-1" href="#">Portfolio</a>
+<a class="font-['Manrope'] font-bold tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" href="#">Gallery</a>
+<a class="font-['Manrope'] font-bold tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" href="#">Research</a>
+<a class="font-['Manrope'] font-bold tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors" href="#">Contact</a>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</div>
+</nav>
+<main class="max-w-[1440px] mx-auto px-8">
+<!-- Hero Header -->
+<header class="py-24 md:py-48 flex flex-col items-start max-w-5xl">
+<span class="font-label text-xs uppercase tracking-[0.2em] mb-6 text-on-surface-variant">Project 04 / Melbourne</span>
+<h1 class="font-headline text-[clamp(2.5rem,8vw,5.5rem)] leading-[0.9] font-extrabold tracking-[-0.05em] uppercase text-primary mb-12">
+                SIGNAGE APPLICATION: <br/>MELBOURNE MONOLITH
+            </h1>
+<div class="flex flex-col md:flex-row gap-12 items-baseline">
+<p class="font-headline text-2xl tracking-tight text-on-surface max-w-md">
+                    An inquiry into the threshold between two-dimensional graphic rigour and three-dimensional architectural materiality.
+                </p>
+<span class="font-label text-xs uppercase tracking-widest text-on-secondary-fixed-variant">Scale &amp; Materiality</span>
+</div>
+</header>
+<!-- Project Context (Humble Brief) -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-12 py-24 bg-surface-container-low -mx-8 px-8">
+<div class="md:col-start-2 md:col-span-4">
+<h2 class="font-label text-xs uppercase tracking-[0.2em] mb-12 border-l-2 border-primary pl-4">The Humble Brief</h2>
+</div>
+<div class="md:col-span-6">
+<p class="font-body text-xl leading-relaxed text-on-surface mb-8">
+                    The transition of the <span class="font-bold underline underline-offset-4 decoration-1">Melbourne Monolith</span> typeface from analogue paper sketches to the built environment required a fundamental shift in technical rigour. 
+                </p>
+<p class="font-body text-xl leading-relaxed text-on-surface-variant">
+                    Born from the brutalist landscape of Melbourne’s civic core, the typeface demands a physical presence that matches its geometric weight. The project explores how ink-traps translate into light-traps when etched into 316 Stainless Steel or cast into high-density concrete.
+                </p>
+</div>
+</section>
+<!-- In-Situ Visuals (Bento Style) -->
+<section class="py-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+<!-- Large Entrance Plinth -->
+<div class="md:col-span-2 aspect-[16/9] bg-surface-dim relative group overflow-hidden">
+<img alt="" class="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-700" data-alt="Monolithic black stone entrance plinth with etched white lettering" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIjrv3kvQTiMotUSCLrABwXIXVbma0nDEEaeRmb29JGpbOptiXc2uQ6kKZlXt1xg5QSf8EKOast6MMF-lJukzQzfe0np3DtALrOL8r86H0sWiAEBlg3mLyhScIHzpL-dx4lnjZuukok5VIfWY_l-oKcEVwML7G4X1oOxPANh73zBfStEI4EOgnm3rM96K0ECzJQ81KeqW8CYi_b9hZrEvHRrQlXv4XIBP_hx1ajZcbW9H1jwMv0P3ZUUdLgJJ81DTEPESdKOu1hce_"/>
+<div class="absolute bottom-8 left-8 text-white">
+<p class="font-label text-xs uppercase tracking-widest">Entry 01</p>
+<p class="font-headline text-lg">Monolithic Entrance Plinth</p>
+</div>
+</div>
+<!-- Wayfinding concrete -->
+<div class="aspect-square bg-surface-container-high relative group overflow-hidden">
+<img alt="" class="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700" data-alt="Concrete wall in a brutalist gallery with black minimalist wayfinding" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArJ3sjyhC_JN-QBNO-xO2KwfjLltPJUOTpBJD3_dSdjmowfD4HqJjCOKutZfR3p-iJ6MmHlAVDCTJGeuggGVhU50rdkXyeipLOB1un6YEC0WuFdI0piGKgI_sGYc4vacBRndTQjS6RaLazxRm95m-7R58IQRBqWhxuUOjOg-liHkWkp9FKp0r-VdQVdOg5hJrBKXveWNawYSrLRR0xFbMSQOxm2wi7usqTNFMo4Yhy5dHzKOYyv824zdzeLaH6kCX_0mQ27zeK-Cs6"/>
+<div class="absolute bottom-8 left-8 text-white">
+<p class="font-label text-xs uppercase tracking-widest">Navigation</p>
+<p class="font-headline text-lg">Brutalist Wayfinding</p>
+</div>
+</div>
+<!-- Glass manifestation -->
+<div class="aspect-square bg-white relative group overflow-hidden">
+<img alt="" class="w-full h-full object-cover grayscale opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="Translucent glass office wall with large scale frosted typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARCOwSdz16kxUDsTsA8OTLD5GoVuGBHUsg37WEsTn_TP6jLWZ_SswCd6dizxNVtY52AiKtRjowyBTyLcK71kBNDFzJastMS6xzPamm19KYdvPFc70iyCJ7fN1TczVpd823NLcpRSR_tgdkC8Lsd7GJBgR4ljD1rcywFiwnxXtTSms-kc3YEIjliN-vUORT0V0tgIbN1_DAsIeauij4vv35HimpORYgCN1wnd45i7hPFllQRe9IlJ7Pzd6l0ELNeXB7rkcRAzU7eGEZ"/>
+<div class="absolute bottom-8 left-8 text-black">
+<p class="font-label text-xs uppercase tracking-widest">Foyer</p>
+<p class="font-headline text-lg">Glass Manifestation</p>
+</div>
+</div>
+<!-- Macro Details -->
+<div class="md:col-span-2 aspect-[21/9] bg-primary relative group overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent z-10"></div>
+<img alt="" class="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700" data-alt="Close up of laser cut brushed metal texture with sharp edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy3pdAb86AvpnBpFaNAr5zVfUQSIpKn0zXJLwO6UIwQbswfnMdxwcHjP7v8NrvoXFfZnFpf0CI0DfHLL-mbRMEkcoC2JjdeXNB-G64ptDzW5m_xEJZVm0L7oThTsvGcC3ajNezTxHna3HQ3-VU3Ou1FX-J0pRgKoQDfi5bthP6-ohMznrXfqumYWWE2m0Csg5Ak_ax3vUIPmNte50DPwnFw9P2pUgCQ1XipQr4yhT9pruVr9XfxbywP1tlfDweKXgdcoXQh4qr51-s"/>
+<div class="absolute inset-0 z-20 flex flex-col justify-center px-12">
+<p class="font-label text-xs uppercase tracking-[0.4em] text-white/60 mb-4">Macro Study</p>
+<h3 class="font-headline text-4xl text-white max-w-xl">The tactile rigour of laser-cut 316 Stainless Steel.</h3>
+</div>
+</div>
+</section>
+<!-- Technical Specifications -->
+<section class="py-24 border-t border-outline-variant/20">
+<h2 class="font-label text-xs uppercase tracking-[0.2em] mb-16">Technical Specifications</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-0.5 bg-outline-variant/20">
+<div class="bg-background p-12 flex flex-col gap-8">
+<span class="font-label text-[10px] uppercase text-on-surface-variant">Standard Material</span>
+<p class="font-headline text-xl">316 Stainless Steel</p>
+<p class="font-body text-sm text-on-surface-variant">Brushed finish, 3mm gauge, anti-fingerprint coating applied for high-traffic civic zones.</p>
+</div>
+<div class="bg-background p-12 flex flex-col gap-8">
+<span class="font-label text-[10px] uppercase text-on-surface-variant">Print Core</span>
+<p class="font-headline text-xl">180gsm Uncoated</p>
+<p class="font-body text-sm text-on-surface-variant">Used for internal analogue reference and temporary exhibition collateral.</p>
+</div>
+<div class="bg-background p-12 flex flex-col gap-8">
+<span class="font-label text-[10px] uppercase text-on-surface-variant">Mounting Method</span>
+<p class="font-headline text-xl">Mechanical Pin</p>
+<p class="font-body text-sm text-on-surface-variant">15mm stand-off with concealed rear-fixings into masonry or structural concrete.</p>
+</div>
+<div class="bg-background p-12 flex flex-col gap-8">
+<span class="font-label text-[10px] uppercase text-on-surface-variant">Treatment</span>
+<p class="font-headline text-xl">Acid Etching</p>
+<p class="font-body text-sm text-on-surface-variant">0.5mm depth with charcoal pigment infill for maximum contrast and longevity.</p>
+</div>
+</div>
+</section>
+<!-- Legibility Study (The Chart) -->
+<section class="py-24 mb-24">
+<div class="flex justify-between items-end mb-16">
+<div class="max-w-xl">
+<h2 class="font-label text-xs uppercase tracking-[0.2em] mb-4">Legibility Study</h2>
+<h3 class="font-headline text-4xl leading-tight">Spatial rigour across varying environmental scales.</h3>
+</div>
+<div class="hidden md:block font-label text-xs uppercase border border-primary px-4 py-2">Scale: 1:100 Reference</div>
+</div>
+<div class="space-y-4">
+<!-- Scale Row 1000mm -->
+<div class="flex items-center gap-8 group">
+<div class="w-24 shrink-0 font-label text-xs text-on-surface-variant uppercase">1000mm</div>
+<div class="grow h-24 bg-surface-container-lowest flex items-center px-8 border-l-4 border-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="font-headline text-6xl tracking-tighter uppercase">Melbourne Monolith</span>
+</div>
+</div>
+<!-- Scale Row 500mm -->
+<div class="flex items-center gap-8 group">
+<div class="w-24 shrink-0 font-label text-xs text-on-surface-variant uppercase">500mm</div>
+<div class="grow h-16 bg-surface-container-low flex items-center px-8 border-l-4 border-outline group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="font-headline text-3xl tracking-tighter uppercase">Melbourne Monolith</span>
+</div>
+</div>
+<!-- Scale Row 100mm -->
+<div class="flex items-center gap-8 group">
+<div class="w-24 shrink-0 font-label text-xs text-on-surface-variant uppercase">100mm</div>
+<div class="grow h-12 bg-surface-container flex items-center px-8 border-l-4 border-outline group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="font-headline text-base tracking-tighter uppercase">Melbourne Monolith</span>
+</div>
+</div>
+<!-- Scale Row 10mm -->
+<div class="flex items-center gap-8 group">
+<div class="w-24 shrink-0 font-label text-xs text-on-surface-variant uppercase">10mm</div>
+<div class="grow h-8 bg-surface-container-high flex items-center px-8 border-l-4 border-outline group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="font-headline text-[10px] tracking-widest uppercase">Melbourne Monolith — Legibility Limit</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f3f3f4] dark:bg-neutral-800 w-full px-8 py-24 flex flex-col md:flex-row justify-between items-end gap-12">
+<div class="flex flex-col gap-8 max-w-2xl">
+<div class="text-lg font-black text-black dark:text-white uppercase tracking-tighter">Signage Application</div>
+<p class="font-['Inter'] text-xs leading-relaxed tracking-wider uppercase text-on-surface-variant">
+                © 2024 Signage Application. We acknowledge the Wurundjeri Woi-wurrung and Bunurong Boon Wurrung peoples of the Eastern Kulin Nations as the Traditional Owners of the land. We pay our respects to their Elders past, present and emerging.
+            </p>
+</div>
+<div class="flex gap-8 font-['Inter'] text-xs leading-relaxed tracking-wider uppercase">
+<a class="opacity-60 hover:opacity-100 transition-opacity underline decoration-2 underline-offset-4" href="#">Privacy</a>
+<a class="opacity-60 hover:opacity-100 transition-opacity" href="#">Terms</a>
+</div>
+</footer>
+</body></html>
